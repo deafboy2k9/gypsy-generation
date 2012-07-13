@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Activity Plus v1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-01-04 15:50+0000\n"
+"Last-Translator: wagesve <svenw@themekraft.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: bpfb.php:46
+#@ default
+msgid "There was an issue determining where Google Maps plugin is installed. Please reinstall."
+msgstr "Es gab ein Problem bei der Lokalisierung des Google Map Plugins. Bitte neu installieren."
+
+#: lib/bpfb_group_documents.php:32
+#@ bpfb
+msgid "Please select a group to upload to"
+msgstr "Bitte wählen Sie eine Gruppe in die hochgeladen werden soll"
+
+#: lib/bpfb_group_documents.php:184
+#, php-format
+#@ bpfb
+msgid "%s uploaded new file(s): %s to %s"
+msgstr "%s hat folgende Datei(en) hochgeladen: %s in %s"
+
+#: lib/class_bpfb_binder.php:104
+#@ bpfb
+msgid "Add image URL"
+msgstr "Link zum Bild hinzufügen"
+
+#: lib/class_bpfb_binder.php:105
+#@ bpfb
+msgid "Add another image URL"
+msgstr "Einen weitere Bild-URL hinzufügen"
+
+#: lib/class_bpfb_binder.php:110
+#@ bpfb
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/class_bpfb_binder.php:111
+#@ bpfb
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/class_bpfb_binder.php:112
+#@ bpfb
+msgid "Preview"
+msgstr "Vorschau"
+
+#: lib/class_bpfb_binder.php:113
+#@ bpfb
+msgid "Choose thumbnail"
+msgstr "Vorschaubild auswählen"
+
+#: lib/class_bpfb_binder.php:114
+#@ bpfb
+msgid "No thumbnail"
+msgstr "Kein Vorschaubild"
+
+#: lib/class_bpfb_binder.php:115
+#@ bpfb
+msgid "Paste video URL here"
+msgstr "URL zum Video hier hinzufügen"
+
+#: lib/class_bpfb_binder.php:116
+#@ bpfb
+msgid "Paste link here"
+msgstr "Link hier hinzufügen"
+
+#: lib/class_bpfb_binder.php:139
+#: lib/class_bpfb_binder.php:156
+#@ bpfb
+msgid "There has been an error processing your request"
+msgstr "Fehler beim bearbeiten Ihrer Anfrage"
+
+#: lib/class_bpfb_binder.php:140
+#: lib/class_bpfb_binder.php:157
+#@ bpfb
+msgid "Processing..."
+msgstr "Bearbeitung..."
+
+#: lib/bpfb_group_documents.php:31
+#: lib/class_bpfb_binder.php:103
+#: lib/class_bpfb_binder.php:106
+#: lib/class_bpfb_binder.php:107
+#: lib/class_bpfb_binder.php:108
+#: lib/class_bpfb_binder.php:109
+#@ bpfb
+msgid "Post"
+msgstr "Veröffentlichen"
+

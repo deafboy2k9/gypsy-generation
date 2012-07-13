@@ -1,0 +1,71 @@
+body{
+	background:#111;
+	color:#a6a6a6;
+}
+
+.box, #header, #footer, .wide-col, .narrow-col, .menu li ul{
+	background:rgb(0,0,0);
+	background:rgba(0,0,0, 0.7);
+}
+	.menu li a{
+		border-bottom:rgb(0,0,0) 1px solid;
+		border-bottom:rgba(0,0,0, 0.7) 1px solid;
+	}
+.box, .wide-col, .narrow-col{
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0);
+	-moz-box-shadow:1px 1px 3px rgba(0,0,0,0);
+	box-shadow:1px 1px 3px rgba(0,0,0,0);
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+	.box:hover{
+		border-radius:0;
+	}
+#header, #footer{
+	border-bottom:1px solid rgba(0,0,0,1);
+}
+	#footer{
+		border-top:1px solid rgba(0,0,0,1);
+	}
+	
+.navigation a{
+	background:rgba(0,0,0, 0.4);
+	border:1px solid rgba(0,0,0,0.5);
+	color:#FFF;
+}
+
+/* -------------- Typeography --------------- */
+#header h1 a{
+	color:#eee;
+	text-shadow:2px 2px 1px rgba(0,0,0,1);
+	-moz-text-shadow:2px 2px 2px rgba(0,0,0,1);
+}
+	#header h1 a:hover{
+		color:#5096cb;
+	}
+	
+.menu a{
+		color:#888;
+}
+	.menu li a:hover, .menu li.current-menu-item a{
+		color:#FFF;
+	}
+		
+#header h3, .box p, .box, .box h2, input{
+	color:#a6a6a6;
+}
+
+#page h2, #page h3{
+	color:#FFF;
+	border-bottom:1px solid #555;
+}
+
+#page p{
+	color:#f7f7f7;
+}
+
+#s, input, textarea{
+	background:#eee;
+	color:#333;
+}

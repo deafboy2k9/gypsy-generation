@@ -1,0 +1,1405 @@
+/**
+ * Theme Name: Gypsy Generation Responsive
+ * Theme URI: http://buddypress.org/extend/themes/
+ * Description: Clean and stylish, BuddyPress Default lets you build a social network straight out of the box. Make it yours with a custom menu, header image, and background. Along with five widgetized areas (one in the sidebar, four in the footer), BP-Default supports featured images (as custom header images on posts and pages) and is furnished with an optional one-column page template that removes the sidebar, and a stylesheet for the admin Visual Editor.
+ * Version: 1.0
+ * Author: Jason Lamb
+ * Author URI: http://www.lambwebdev.co.uk
+ * License: GNU General Public License
+ * License URI: license.txt
+ * Template: bp-default
+ * Tags: blue, buddypress, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, fixed-width, light, right-sidebar, rtl-language-support, sticky-post, threaded-comments, translation-ready, two-columns, white
+ *
+ *** IMPORTANT - DO NOT COPY THIS THEME **
+ *
+ * If you want to make a custom theme based on this theme, DO NOT copy and edit it. By
+ * doing this you will make updates and maintainence much harder for yourself.
+ * Instead, please read this codex page on how to build a BuddyPress child theme:
+ *
+ * http://codex.buddypress.org/how-to-guides/building-a-buddypress-child-theme/
+ *
+ ***
+ *
+ * This file intentionally left blank. CSS is enqueued in functions.php
+ *
+ */
+
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Tabs
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #fff;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "Georgia", "Times New Roman", serif;
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+
+/* #Buttons
+================================================== */
+
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		background: #eee; /* Old browsers */
+		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
+		background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
+		background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Chrome10+,Safari5.1+ */
+		background: #eee -o-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Opera11.10+ */
+		background: #eee -ms-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* IE10+ */
+		background: #eee linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* W3C */
+	  border: 1px solid #aaa;
+	  border-top: 1px solid #ccc;
+	  border-left: 1px solid #ccc;
+	  -moz-border-radius: 3px;
+	  -webkit-border-radius: 3px;
+	  border-radius: 3px;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 11px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  text-shadow: 0 1px rgba(255, 255, 255, .75);
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 8px 10px;
+	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+	.button:hover,
+	button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		color: #222;
+		background: #ddd; /* Old browsers */
+		background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
+		background: #ddd -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.3)), color-stop(100%,rgba(0,0,0,.3))); /* Chrome,Safari4+ */
+		background: #ddd -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
+		background: #ddd -o-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Opera11.10+ */
+		background: #ddd -ms-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* IE10+ */
+		background: #ddd linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* W3C */
+	  border: 1px solid #888;
+	  border-top: 1px solid #aaa;
+	  border-left: 1px solid #aaa; }
+
+	.button:active,
+	button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active {
+		border: 1px solid #666;
+		background: #ccc; /* Old browsers */
+		background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
+		background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
+		background: #ccc -webkit-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Chrome10+,Safari5.1+ */
+		background: #ccc -o-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Opera11.10+ */
+		background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
+		background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */ }
+
+	.button.full-width,
+	button.full-width,
+	input[type="submit"].full-width,
+	input[type="reset"].full-width,
+	input[type="button"].full-width {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+	}
+
+
+/* #Tabs (activate in tabs.js)
+================================================== */
+	ul.tabs {
+		display: block;
+		margin: 0 0 20px 0;
+		padding: 0;
+		border-bottom: solid 1px #ddd; }
+	ul.tabs li {
+		display: block;
+		width: auto;
+		height: 30px;
+		padding: 0;
+		float: left;
+		margin-bottom: 0; }
+	ul.tabs li a {
+		display: block;
+		text-decoration: none;
+		width: auto;
+		height: 29px;
+		padding: 0px 20px;
+		line-height: 30px;
+		border: solid 1px #ddd;
+		border-width: 1px 1px 0 0;
+		margin: 0;
+		background: #f5f5f5;
+		font-size: 13px; }
+	ul.tabs li a.active {
+		background: #fff;
+		height: 30px;
+		position: relative;
+		top: -4px;
+		padding-top: 4px;
+		border-left-width: 1px;
+		margin: 0 0 0 -1px;
+		color: #111;
+		-moz-border-radius-topleft: 2px;
+		-webkit-border-top-left-radius: 2px;
+		border-top-left-radius: 2px;
+		-moz-border-radius-topright: 2px;
+		-webkit-border-top-right-radius: 2px;
+		border-top-right-radius: 2px; }
+	ul.tabs li:first-child a.active {
+		margin-left: 0; }
+	ul.tabs li:first-child a {
+		border-width: 1px 1px 0 1px;
+		-moz-border-radius-topleft: 2px;
+		-webkit-border-top-left-radius: 2px;
+		border-top-left-radius: 2px; }
+	ul.tabs li:last-child a {
+		-moz-border-radius-topright: 2px;
+		-webkit-border-top-right-radius: 2px;
+		border-top-right-radius: 2px; }
+
+	ul.tabs-content { margin: 0; display: block; }
+	ul.tabs-content > li { display:none; }
+	ul.tabs-content > li.active { display: block; }
+
+	/* Clearfixing tabs for beautiful stacking */
+	ul.tabs:before,
+	ul.tabs:after {
+	  content: '\0020';
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  width: 0;
+	  height: 0; }
+	ul.tabs:after {
+	  clear: both; }
+	ul.tabs {
+	  zoom: 1; }
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+
+
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns                     { width: 40px;  }
+    .container .two.columns                     { width: 100px; }
+    .container .three.columns                   { width: 160px; }
+    .container .four.columns                    { width: 220px; }
+    .container .five.columns                    { width: 280px; }
+    .container .six.columns                     { width: 340px; }
+    .container .seven.columns                   { width: 400px; }
+    .container .eight.columns                   { width: 460px; }
+    .container .nine.columns                    { width: 520px; }
+    .container .ten.columns                     { width: 580px; }
+    .container .eleven.columns                  { width: 640px; }
+    .container .twelve.columns                  { width: 700px; }
+    .container .thirteen.columns                { width: 760px; }
+    .container .fourteen.columns                { width: 820px; }
+    .container .fifteen.columns                 { width: 880px; }
+    .container .sixteen.columns                 { width: 940px; }
+
+    .container .one-third.column                { width: 300px; }
+    .container .two-thirds.column               { width: 620px; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: 60px;  }
+    .container .offset-by-two                   { padding-left: 120px; }
+    .container .offset-by-three                 { padding-left: 180px; }
+    .container .offset-by-four                  { padding-left: 240px; }
+    .container .offset-by-five                  { padding-left: 300px; }
+    .container .offset-by-six                   { padding-left: 360px; }
+    .container .offset-by-seven                 { padding-left: 420px; }
+    .container .offset-by-eight                 { padding-left: 480px; }
+    .container .offset-by-nine                  { padding-left: 540px; }
+    .container .offset-by-ten                   { padding-left: 600px; }
+    .container .offset-by-eleven                { padding-left: 660px; }
+    .container .offset-by-twelve                { padding-left: 720px; }
+    .container .offset-by-thirteen              { padding-left: 780px; }
+    .container .offset-by-fourteen              { padding-left: 840px; }
+    .container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .container .one.column,
+        .container .one.columns                     { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        .container .one-third.column                { width: 236px; }
+        .container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 384px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column { width: 420px; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+    /*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+body {
+	padding-top: 0px !important;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+}
+
+header {
+	padding: 0 0 10px 0;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 800;
+	background: #fff;
+}
+
+header #header-content-wrapper {
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+#sidebar-left {
+	position: fixed;
+	top: 275px;
+	left: 0px;
+}
+
+#sidebar-left a {
+	display: block;
+	text-indent: -90000000px;
+}
+
+#sidebar-left #profile {
+	background: url(/img/icons/profile.png);
+	width: 43px;
+	height: 110px;
+}
+
+#sidebar-left #dashboard {
+	background: url(/img/icons/dashboard.png);
+	width: 43px;
+	height: 151px;
+}
+
+#account-nav {
+	background-color: rgba(242,242,242,0.5);
+	margin-bottom: 10px;
+	padding: 5px;
+	position: fixed;
+	z-index: 999;
+	height: 20px;
+	width: 100%;
+}
+
+#account-nav ul {
+	float: right;
+	margin-bottom: 0;
+}
+
+#account-nav ul li {
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#account-nav #account-links {
+	margin-left: 785px;
+}
+
+#account-nav #account-links li {
+	margin-right: 10px;
+}
+
+#account-links li#bp-adminbar-notifications-menu {
+	margin-left: 20px;
+}
+
+#account-links li#bp-adminbar-notifications-menu a {
+	color: #f2f2f2;
+	background: url(/img/icons/notification.png) left 3px no-repeat;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	padding-left: 8px;
+}
+
+#account-nav li a, #account-nav  li a:active, #account-links li a:visited {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666;
+}
+
+#header-content-wrapper {
+	clear:both;
+	height: 140px;
+}
+
+header .column, footer .column {
+	width: 33.3%;
+	float: left;
+}
+
+#search, #dropdown {
+	margin-top: 30px;
+}
+
+header nav#profile-navigation {
+	padding: 10px;
+	margin: 0 0 10px 0;
+	background: #f2f2f2;
+}
+
+header div#search label, header div#search input {
+	display: inline;
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+}
+
+header div#search input {
+	color: #000;
+	background-color: #f2f2f2;
+	border: 0;
+	width: 95px;
+	-webkit-transition: width 1s ease;  
+    -moz-transition: width 1s ease;  
+    -o-transition: width 1s ease;  
+    -ms-transition: width 1s ease;  
+    transition: width 1s ease;  
+}
+
+header div#search input:focus {
+	width: 300px;
+}
+
+
+
+header div#logo a strong {
+	display: block;
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 
+	font-size: 1.571em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 10px;
+}
+
+header div#logo, nav#primary-navigation {
+	text-align: center;
+}
+
+header nav#primary-navigation {
+	clear:both;
+}
+
+header nav#primary-navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+header nav#primary-navigation ul li {
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+header nav#primary-navigation ul li.current-menu-item a {
+	color: #749DFF;
+}
+
+header a, header a:visited, header a:active {
+	text-decoration: none; 
+}
+
+#dropdown {
+	position: absolute;
+	right: 10px;
+}
+
+nav#personal-nav {
+	position: relative;
+	z-index: 99999;
+}
+
+nav#personal-nav a {
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif; 
+	font-size: 10px;
+}
+
+
+ul#personal-nav-menu > li >  a {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 
+	font-size: 10px;
+	font-weight: 300;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+
+ul#personal-nav-menu {
+	width: 300px;
+	float:right;
+}
+
+ul#personal-nav-menu li ul {
+	display: none;
+	margin-top: 10px;
+}
+
+ul#personal-nav-menu li:hover ul {
+	display: block;
+}
+
+
+#container {
+	top: 220px;
+	padding-bottom: 50px;
+}
+
+#sidebar {
+	font-size: 10px;
+}
+
+#sidebar li {
+	margin-bottom: 20px;
+}
+
+#sidebar h3 {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+#sidebar a, #sidebar a:visited, #sidebar a:active {
+	text-decoration: none;
+	color: #000;
+	line-height: 11px;
+}
+
+#sidebar img {
+	padding: 0 5px 5px 0;
+	float: left;
+}
+
+#sidebar .jta-tweet-list-item
+{
+	border: none;
+	background: #fff;
+	border-bottom: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+	border-radius: 0;
+}
+
+#sidebar .jta-tweet-list-item:first-child
+{
+    border: none;
+	border-radius: 0;
+}
+
+footer {
+	padding: 10px;
+	height: auto;
+	width: 1416px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background: #fff;
+}
+
+footer ul {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+footer ul  ul {
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li a, footer ul li a:active, footer ul li a:visited {
+	margin: 0px 10px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.drop-shadow {
+	-webkit-box-shadow: 4px 4px 15px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    4px 4px 15px rgba(50, 50, 50, 0.75);
+	box-shadow:         4px 4px 15px rgba(50, 50, 50, 0.75);
+}
+/* #Page Styles
+================================================== */
+#registration-content {
+	font-size: 11px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+}
+
+#registration-content h2 {
+	font-size: 16px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+}
+
+#registration-content h4 {
+	font-size: 14px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+}
+
+#registration-content label, #registration-content input, #registration-content select option {
+	font-size: 10px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+}
+
+#registration-content li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#registration-content ol {
+	margin: 0;
+	padding: 0;
+}
+
+#registration-content ol input[type=text] {
+	width: 60%;
+	display: inline-block;
+}
+
+#registration-content ol select {
+	width: 35%;
+	display: inline-block;
+}
+
+#members-list {
+	padding-left: 10px;
+}
+
+#members-list li.columns {
+	list-style-type: none inside;
+}
+
+#members-list li h3.item-title  {
+	position: relative;
+	z-index: 10;
+	top: 200px;
+	background: #fff;
+	padding: 5px;
+	width: 180px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif; 
+	font-size: 1em;
+	font-weight: 300;
+}
+
+#members-list li a, #members-list li a:active, #members-list li a:visited {
+	text-decoration: none;
+}
+
+#members-list li a:hover {
+	text-decoration: underline;
+}
+
+#members-list li div.item-avatar {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+
+#members-list li div.item-avatar:hover {
+	-webkit-box-shadow: 4px 4px 15px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    4px 4px 15px rgba(50, 50, 50, 0.75);
+	box-shadow:         4px 4px 15px rgba(50, 50, 50, 0.75);
+}
+
+#members-list li div.item label {
+	display: inline-block;
+	width: 80px;
+}
+
+.member {
+	font-size: 10px;
+}
+
+.member h2 {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 
+	font-size: 17px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	line-height: 17px;
+}
+
+.member #item-buttons div {
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+}
+
+.member #item-buttons div a {
+	display: block;
+	height: 17px;
+	width: 17px;
+	text-indent: -50000px;
+}
+
+.member #item-buttons div a.friendship-button.not_friends.add {
+	background-image: url('/img/icons/addnetwork.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.member #item-buttons div a.send-message {
+	background-image: url('/img/icons/message.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 25px;
+}
+
+.member .item-header-details h3 {
+	font-size: 11px;
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	margin:0;
+	padding: 0;
+}
+
+.member .item-header-details div{
+	font-size: 10px;
+	font-family: 'MotivaSansRegular', Arial, Helvetica, Sans-serif;
+}
+
+.member .item-header-details div li a, .member .item-header-details div li a:active, .member .item-header-details div li a:visited {
+	text-decoration: none;
+	color: #749DFF;
+}
+
+.member .item-header-details div li a:hover {
+	text-decoration: underline;
+}
+
+.member #latest-update {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	border: none;
+	padding: 0;
+	font-size: 10px;
+}
+
+.member #latest-update a:before {
+	content: '"';
+}
+
+.member #latest-update a:after {
+	content: '"';
+}
+
+.member #whats-new-textarea input, textarea.ac-input {
+	padding: 10px 5px;
+	border: 1px solid #749DFF;
+	width: 100%;
+}
+
+
+.member #latest-update a, .member #latest-update a:active, .member #latest-update a:visited {
+	color: #749DFF;
+	text-decoration: none;
+}
+
+.member .picture-gallery {
+	text-align: center;
+	word-wrap: break-word;
+	position: relative;
+}
+
+.member .picture-gallery li {
+	margin-bottom: 30px;
+}
+
+.member .picture-gallery li a {
+	text-decoration: none;
+}
+
+.member .picture-gallery li div.gallery-likes {
+	z-index: 20;
+	position: relative;
+	top: 20px;
+	background: rgba(255,255,255,0.5);
+	display: block;
+	border: 1px solid red;
+	text-align: left;
+	padding: 0 10px;
+}
+
+.member .picture-gallery h4 {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 
+	font-size: 10px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	height: 50px;
+	width: 160px;
+	display: table-cell;
+   	vertical-align: bottom;
+	line-height: 12px;
+	border-bottom: 1px #000 solid;
+}
+
+.member .picture-gallery img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+.member .picture-gallery img:hover {
+	-webkit-box-shadow: 4px 4px 15px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    4px 4px 15px rgba(50, 50, 50, 0.75);
+	box-shadow:         4px 4px 15px rgba(50, 50, 50, 0.75);
+}
+
+.member #item-body {
+	border-bottom: 2px solid #749DFF;
+}
+
+.member #item-nav  {
+	border-bottom: 2px solid #749DFF;
+	width: 100%;
+}
+
+.member #item-nav ul {
+	margin: 0;
+}
+
+.member #item-nav .item-list-tabs ul li {
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 	
+	display: inline-block;
+	padding: 5px;
+	margin: 0;
+	border: 2px solid #749DFF;
+	border-bottom: none;
+	border-right: none;
+	text-transform: uppercase;
+}
+
+.member #item-nav .item-list-tabs ul li a {
+	text-decoration: none;
+}
+
+div#subnav ul{
+	margin: 5px 0 10px 0;
+	border-bottom: 2px solid #f2f2f2;
+}
+
+.member #item-nav .item-list-tabs ul li#-personal-li{
+	display: none;	
+}
+
+.member #item-nav .item-list-tabs ul li:last-child {
+	border-right: 2px solid #749DFF;
+}
+
+.member #item-body .item-list-tabs ul li {
+	display: inline-block;
+	padding: 5px;
+	margin: 0;
+	margin-right: 10px;
+}
+
+.member #item-body .item-list-tabs ul li a {
+	display: block;
+	text-indent: -9000000px;
+}
+
+.member #item-body .item-list-tabs ul li a#just-me {
+	background-image: url('/img/icons/notification_feed.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 15px;
+	height: 13px;
+}
+
+.member #item-body .item-list-tabs ul li a#activity-mentions {
+	background-image: url('/img/icons/notification_feed.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 20px;
+	height: 17px;
+}
+
+.member #item-body .item-list-tabs ul li a#activity-favs {
+	background-image: url('/img/icons/love.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 14px;
+	height: 13px;
+}
+
+#activity-friends-personal-li, #activity-groups-personal-li {
+	display: none !important;
+}
+
+.member #item-body p {
+	line-height: auto;
+	margin: 0 0 10px 0;
+}
+
+.member #item-body a, .member #item-body a:active, .member #item-body a:visited {
+	margin-right: 10px;
+	font-family: 'MotivaSansBold', Arial, Helvetica, Sans-serif; 	
+	text-decoration: none;
+}
+
+.member #item-body a:hover {
+	color: #749DFF;
+}
+
+.member #item-body .activity-comments ul {
+	margin: 10px 10px 10px 70px;
+}
+
+.member #item-body .activity-comments ul li {
+	display: block;
+	clear: both;
+}
+
+
+.member #item-body .activity-comments ul li div.acomment-avatar, .member #item-body .activity-comments ul li div.acomment-meta {
+	display: inline-block;
+	float: left; 
+}
+
+.member #item-body .activity-comments ul li div.acomment-content {
+	clear: both;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on June 24, 2012 */
+
+
+
+@font-face {
+    font-family: 'MotivaSansBoldItalic';
+    src: url('stylesheets/fonts/fonts/motiva-sans-bold-italic-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-bold-italic-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-bold-italic-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-bold-italic-webfont.svg#MotivaSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansBold';
+    src: url('stylesheets/fonts/motiva-sans-bold-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-bold-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-bold-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-bold-webfont.svg#MotivaSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansLightItalic';
+    src: url('stylesheets/fonts/motiva-sans-light-italic-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-light-italic-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-light-italic-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-light-italic-webfont.svg#MotivaSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansLightRegular';
+    src: url('stylesheets/fonts/motiva-sans-light-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-light-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-light-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-light-webfont.svg#MotivaSansLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansItalic';
+    src: url('stylesheets/fonts/motiva-sans-regular-italic-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-regular-italic-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-regular-italic-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-regular-italic-webfont.svg#MotivaSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansRegular';
+    src: url('stylesheets/fonts/motiva-sans-webfont.eot');
+    src: url('stylesheets/fonts/motiva-sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/motiva-sans-webfont.woff') format('woff'),
+         url('stylesheets/fonts/motiva-sans-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/motiva-sans-webfont.svg#MotivaSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

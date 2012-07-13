@@ -1,0 +1,531 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGEN ImageFlow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-11 20:09+0100\n"
+"PO-Revision-Date: 2010-09-11 20:09+0100\n"
+"Last-Translator: Boris Glumpler <boris@shabushabu.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bp-xtra-signup.php:239
+#: admin/bpxs-admin.php:93
+msgid "Support Forums"
+msgstr ""
+
+#: bp-xtra-signup.php:240
+#: admin/bpxs-admin.php:94
+#: admin/bpxs-settings.php:168
+#: admin/bpxs-settings.php:569
+msgid "Donate"
+msgstr ""
+
+#: admin/bpxs-admin.php:32
+msgid "BP Xtra Signup"
+msgstr ""
+
+#: admin/bpxs-admin.php:91
+msgid "Get help for BP Xtra Signup"
+msgstr ""
+
+#: admin/bpxs-install.php:32
+msgid "Don't forget"
+msgstr ""
+
+#: admin/bpxs-install.php:33
+msgid "Uncheck this box if you do not want to subscribe to our newsletter."
+msgstr ""
+
+#: admin/bpxs-install.php:34
+msgid "Please make sure to read our {url}Terms of Service{/url} and then check this box (required)."
+msgstr ""
+
+#: admin/bpxs-install.php:36
+msgid "You have to check our Terms Of Service to continue."
+msgstr ""
+
+#: admin/bpxs-install.php:38
+msgid "Unsuccessful newsletter signup"
+msgstr ""
+
+#: admin/bpxs-install.php:39
+msgid ""
+"Hello,\n"
+"\n"
+"there has been an error with a new subscriber to your newsletter! Check the error and send a message to the user if signup to the newsletter has been unsuccessful.\n"
+"\n"
+"Unable to load listSubscribe()!\n"
+"\n"
+"UserID: {USER_ID}\n"
+"Name: {USER_NAME}\n"
+"Email: {USER_EMAIL}\n"
+"\n"
+"Code: {ERROR_CODE}\n"
+"Msg: {ERROR_MESSAGE}"
+msgstr ""
+
+#: admin/bpxs-settings.php:52
+msgid "You need to enter a Mailchimp List ID and an API Key."
+msgstr ""
+
+#: admin/bpxs-settings.php:60
+msgid "You need to enter a valid email address."
+msgstr ""
+
+#: admin/bpxs-settings.php:70
+msgid "You need to specify a date of birth profile field."
+msgstr ""
+
+#: admin/bpxs-settings.php:76
+msgid "You need to specify an age."
+msgstr ""
+
+#: admin/bpxs-settings.php:104
+msgid "Update Successfully"
+msgstr ""
+
+#: admin/bpxs-settings.php:166
+#: admin/bpxs-settings.php:201
+msgid "Settings"
+msgstr ""
+
+#: admin/bpxs-settings.php:167
+#: admin/bpxs-settings.php:467
+#: admin/bpxs-settings.php:557
+msgid "Help"
+msgstr ""
+
+#: admin/bpxs-settings.php:205
+msgid "Click to open all option boxes."
+msgstr ""
+
+#: admin/bpxs-settings.php:211
+#: admin/bpxs-settings.php:256
+#: admin/bpxs-settings.php:315
+#: admin/bpxs-settings.php:332
+#: admin/bpxs-settings.php:349
+#: admin/bpxs-settings.php:366
+#: admin/bpxs-settings.php:383
+msgid "Click to toggle"
+msgstr ""
+
+#: admin/bpxs-settings.php:212
+msgid "Terms of Service"
+msgstr ""
+
+#: admin/bpxs-settings.php:216
+msgid "Activate TOS"
+msgstr ""
+
+#: admin/bpxs-settings.php:219
+#: admin/bpxs-settings.php:264
+#: admin/bpxs-settings.php:323
+#: admin/bpxs-settings.php:340
+#: admin/bpxs-settings.php:357
+#: admin/bpxs-settings.php:374
+#: admin/bpxs-settings.php:391
+msgid "Yes"
+msgstr ""
+
+#: admin/bpxs-settings.php:220
+#: admin/bpxs-settings.php:265
+#: admin/bpxs-settings.php:324
+#: admin/bpxs-settings.php:341
+#: admin/bpxs-settings.php:358
+#: admin/bpxs-settings.php:375
+#: admin/bpxs-settings.php:392
+msgid "No"
+msgstr ""
+
+#: admin/bpxs-settings.php:222
+msgid "Show the TOS checkbox on the registration screen?"
+msgstr ""
+
+#: admin/bpxs-settings.php:225
+msgid "Signup Title"
+msgstr ""
+
+#: admin/bpxs-settings.php:228
+msgid "The header title of the extra signup options."
+msgstr ""
+
+#: admin/bpxs-settings.php:232
+msgid "Checkbox Text"
+msgstr ""
+
+#: admin/bpxs-settings.php:235
+msgid "Will be displayed next to the checkbox a new user needs to check. These placeholders are allowed: {url},{/url}"
+msgstr ""
+
+#: admin/bpxs-settings.php:239
+msgid "TOS Link"
+msgstr ""
+
+#: admin/bpxs-settings.php:242
+msgid "The link to your Terms of Service page."
+msgstr ""
+
+#: admin/bpxs-settings.php:246
+msgid "Error Text"
+msgstr ""
+
+#: admin/bpxs-settings.php:249
+msgid "The text that appears when a user does not check the TOS checkbox."
+msgstr ""
+
+#: admin/bpxs-settings.php:257
+msgid "Mailchimp Integration"
+msgstr ""
+
+#: admin/bpxs-settings.php:261
+msgid "Activate Newsletter"
+msgstr ""
+
+#: admin/bpxs-settings.php:267
+msgid "Only activate the newsletter if you have a Mailchimp account."
+msgstr ""
+
+#: admin/bpxs-settings.php:270
+msgid "Newsletter Text"
+msgstr ""
+
+#: admin/bpxs-settings.php:273
+msgid "The text next to the checkbox on the registration page."
+msgstr ""
+
+#: admin/bpxs-settings.php:277
+msgid "API Key"
+msgstr ""
+
+#: admin/bpxs-settings.php:280
+msgid "Your Mailchimp API key."
+msgstr ""
+
+#: admin/bpxs-settings.php:284
+msgid "List ID"
+msgstr ""
+
+#: admin/bpxs-settings.php:287
+msgid "The list ID you want new users to subscribe to."
+msgstr ""
+
+#: admin/bpxs-settings.php:291
+msgid "Email Recipient"
+msgstr ""
+
+#: admin/bpxs-settings.php:294
+msgid "Enter an email address you want newsletter signup errors sent to."
+msgstr ""
+
+#: admin/bpxs-settings.php:298
+msgid "Email Subject"
+msgstr ""
+
+#: admin/bpxs-settings.php:301
+msgid "The subject of the error message."
+msgstr ""
+
+#: admin/bpxs-settings.php:305
+msgid "Email Message"
+msgstr ""
+
+#: admin/bpxs-settings.php:308
+msgid "The body of the error message."
+msgstr ""
+
+#: admin/bpxs-settings.php:316
+msgid "Email Confirmation"
+msgstr ""
+
+#: admin/bpxs-settings.php:320
+msgid "Activate Email Confirmation"
+msgstr ""
+
+#: admin/bpxs-settings.php:326
+msgid "Select yes if you want your users to confirm their email address."
+msgstr ""
+
+#: admin/bpxs-settings.php:333
+msgid "Ajax Username Availability"
+msgstr ""
+
+#: admin/bpxs-settings.php:337
+msgid "Activate Username Check"
+msgstr ""
+
+#: admin/bpxs-settings.php:343
+msgid "Select yes if you want to activate the ajax username availability check."
+msgstr ""
+
+#: admin/bpxs-settings.php:350
+msgid "Ajax Email Check"
+msgstr ""
+
+#: admin/bpxs-settings.php:354
+msgid "Activate Email Check"
+msgstr ""
+
+#: admin/bpxs-settings.php:360
+msgid "Select yes if you want to activate the ajax email check."
+msgstr ""
+
+#: admin/bpxs-settings.php:367
+msgid "Password Strength Meter"
+msgstr ""
+
+#: admin/bpxs-settings.php:371
+msgid "Activate Password Strength Meter"
+msgstr ""
+
+#: admin/bpxs-settings.php:377
+msgid "Select yes if you want to activate the password strength meter."
+msgstr ""
+
+#: admin/bpxs-settings.php:384
+msgid "Date of Birth Check"
+msgstr ""
+
+#: admin/bpxs-settings.php:388
+msgid "Activate DOB Check"
+msgstr ""
+
+#: admin/bpxs-settings.php:394
+msgid "Select yes if you want to activate the date of birth check."
+msgstr ""
+
+#: admin/bpxs-settings.php:397
+msgid "DOB Field ID"
+msgstr ""
+
+#: admin/bpxs-settings.php:404
+msgid "Select the profile field that represents the date of birth."
+msgstr ""
+
+#: admin/bpxs-settings.php:408
+msgid "Pick your age"
+msgstr ""
+
+#: admin/bpxs-settings.php:416
+msgid "Select the age you need your users to be above."
+msgstr ""
+
+#: admin/bpxs-settings.php:423
+msgid "Update"
+msgstr ""
+
+#: admin/bpxs-settings.php:469
+#, php-format
+msgid "To receive support for this plugin, please <a href=\"%s\">register</a> on <a href=\"%s\">ShabuShabu.eu</a>."
+msgstr ""
+
+#: admin/bpxs-settings.php:470
+msgid "Registration is free. Support, however, will only be provided within the support group of this plugin, for which we charge a small monthly subscription fee."
+msgstr ""
+
+#: admin/bpxs-settings.php:475
+#: admin/bpxs-settings.php:499
+#: admin/bpxs-settings.php:529
+msgid "Description"
+msgstr ""
+
+#: admin/bpxs-settings.php:476
+#: admin/bpxs-settings.php:501
+#: admin/bpxs-settings.php:531
+msgid "Price"
+msgstr ""
+
+#: admin/bpxs-settings.php:492
+msgid "Below you find a list of all our available and planned plugins and themes. Items that have a price tag attached come with 3 months free support."
+msgstr ""
+
+#: admin/bpxs-settings.php:494
+msgid "Plugins"
+msgstr ""
+
+#: admin/bpxs-settings.php:498
+#: admin/bpxs-settings.php:528
+msgid "Name"
+msgstr ""
+
+#: admin/bpxs-settings.php:500
+#: admin/bpxs-settings.php:530
+msgid "Release Date"
+msgstr ""
+
+#: admin/bpxs-settings.php:524
+msgid "Themes"
+msgstr ""
+
+#: admin/bpxs-settings.php:558
+msgid "Information could not be retrieved."
+msgstr ""
+
+#: admin/bpxs-settings.php:571
+msgid "We spend a lot of time and effort on implementing new features and on the maintenance of this plugin, so if you feel generous and have a few bucks to spare, then please consider to donate."
+msgstr ""
+
+#: admin/bpxs-settings.php:572
+msgid "Click on the button below and you will be redirected to the PayPal site where you can make a safe donation"
+msgstr ""
+
+#: admin/bpxs-settings.php:576
+msgid "BP Xtra Signup @ http://shabushabu.eu"
+msgstr ""
+
+#: admin/bpxs-settings.php:583
+msgid "Make payments with PayPal - it's fast, free and secure!"
+msgstr ""
+
+#: admin/bpxs-settings.php:586
+msgid "Thank you and all the best!"
+msgstr ""
+
+#: _inc/bpxs-core.php:54
+#, php-format
+msgid "You need to be at least %d years old to join this network."
+msgstr ""
+
+#: _inc/bpxs-core.php:171
+msgid "Confirm Email (required)"
+msgstr ""
+
+#: _inc/bpxs-core.php:201
+msgid "Please make sure you enter your email twice"
+msgstr ""
+
+#: _inc/bpxs-core.php:204
+msgid "The emails you entered do not match."
+msgstr ""
+
+#: _inc/bpxs-core.php:229
+#, php-format
+msgid "This usename is taken, please choose another one, e.g. %s"
+msgstr ""
+
+#: _inc/bpxs-core.php:237
+msgid "This username is available."
+msgstr ""
+
+#: _inc/bpxs-core.php:243
+msgid "You have to chose a username."
+msgstr ""
+
+#: _inc/bpxs-core.php:317
+msgid "Only lowercase letters and numbers allowed."
+msgstr ""
+
+#: _inc/bpxs-core.php:320
+msgid "This username is reserved. Please chose another one."
+msgstr ""
+
+#: _inc/bpxs-core.php:323
+msgid "Username must be at least 4 characters."
+msgstr ""
+
+#: _inc/bpxs-core.php:326
+msgid "Usernames must not contain the character \"_\"!"
+msgstr ""
+
+#: _inc/bpxs-core.php:332
+msgid "Usernames must contain letters too!"
+msgstr ""
+
+#: _inc/bpxs-core.php:353
+#: _inc/bpxs-core.php:359
+msgid "Strength indicator"
+msgstr ""
+
+#: _inc/bpxs-core.php:354
+msgid "Very weak"
+msgstr ""
+
+#: _inc/bpxs-core.php:355
+msgid "Weak"
+msgstr ""
+
+#: _inc/bpxs-core.php:357
+msgid "Strong"
+msgstr ""
+
+#: _inc/bpxs-core.php:358
+msgid "Mismatch"
+msgstr ""
+
+#: _inc/bpxs-core.php:360
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
+msgstr ""
+
+#: _inc/bpxs-core.php:374
+#: _inc/bpxs-core.php:388
+msgid "The emails don't match!"
+msgstr ""
+
+#: _inc/bpxs-core.php:420
+msgid "January"
+msgstr ""
+
+#: _inc/bpxs-core.php:421
+msgid "February"
+msgstr ""
+
+#: _inc/bpxs-core.php:422
+msgid "March"
+msgstr ""
+
+#: _inc/bpxs-core.php:423
+msgid "April"
+msgstr ""
+
+#: _inc/bpxs-core.php:424
+msgid "May"
+msgstr ""
+
+#: _inc/bpxs-core.php:425
+msgid "June"
+msgstr ""
+
+#: _inc/bpxs-core.php:426
+msgid "July"
+msgstr ""
+
+#: _inc/bpxs-core.php:427
+msgid "August"
+msgstr ""
+
+#: _inc/bpxs-core.php:428
+msgid "September"
+msgstr ""
+
+#: _inc/bpxs-core.php:429
+msgid "October"
+msgstr ""
+
+#: _inc/bpxs-core.php:430
+msgid "November"
+msgstr ""
+
+#: _inc/bpxs-core.php:431
+msgid "December"
+msgstr ""
+
+#: _inc/bpxs-core.php:452
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: _inc/bpxs-core.php:455
+msgid "Sorry, that email address is already in use!"
+msgstr ""
+
+#: _inc/bpxs-core.php:458
+msgid "This email address is valid."
+msgstr ""
+
+#: _inc/bpxs-core.php:461
+msgid "You have to enter an email address."
+msgstr ""
+

@@ -1,0 +1,21 @@
+span.media-credit-mce {
+	font-size: 11px;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+}
+span.media-credit-mce.alignright {
+	text-align: right;
+}
+span.media-credit-mce
+	span.media-credit-dd {
+		display: block;
+	}
+span.media-credit-mce.alignright
+	span.media-credit-dd {
+		text-align: right;
+		margin-right: 5px;
+	}
+span.media-credit-mce.alignleft
+	span.media-credit-dd {
+		text-align: left;
+		margin-left: 5px;
+	}

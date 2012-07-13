@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("input#signup_email").bind("blur",function(){jQuery("#compare-info").remove();var b=jQuery("input#signup_email_first").val();var a=jQuery("input#signup_email").val();if(b!=a){jQuery("input#signup_email").after('<span id="compare-info" class="error">'+compare_error+"</span>")}})});

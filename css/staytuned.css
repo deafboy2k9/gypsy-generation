@@ -1,0 +1,120 @@
+body{
+	width:1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+img{
+	vertical-align: middle;
+}
+
+#container{
+	position: relative;
+	background-color: #FFFFFF;
+}
+
+.header{
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+.tagline{
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 32px;
+	text-transform: lowercase;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+	text-align: left;
+	position: relative;
+	left: 182px;
+	width: 620px;
+	top:20px;
+}
+
+.email{
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 21px;
+	text-transform: lowercase;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+	text-align: left;
+	position: relative;
+	margin-left:5px;
+}
+
+.form{
+	position: relative;
+	top: 100px;
+	width: 750px;
+	font-size:15px;
+	padding:0px;
+	margin:0px auto 100px;
+}
+
+.input{
+	width: 500px;
+	height: 32px;
+	position: relative;
+	padding-left:15px;
+	font-size:15px;
+	border: 1px solid #858585;
+}
+
+.submit{
+	position: relative;
+	width: 100px;
+	height: 36px;
+	border:1px solid #858585;
+	background-color: #858585;
+	color: white;
+	font-size:15px;
+}
+
+.follow{
+	height: 35px;
+}
+
+div.gif{
+	position:relative;
+	top:50px;
+	text-align:center;
+}
+
+img.gif{
+	width:750px;
+}
+
+img.follow{
+	width:35px; 
+}
+
+.controls{
+	height: 35px;
+	position:absolute;
+}
+
+#play{
+	left:0px;
+}
+
+#next{
+	left:30px;
+}

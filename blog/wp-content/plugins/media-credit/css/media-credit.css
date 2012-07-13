@@ -1,0 +1,32 @@
+.media-credit {
+	font-size: 0.9em;
+	line-height: 1.2em; /*11px*/
+	text-align: right;
+	margin: 3px 5px;
+	display: block;
+	color: #909090;
+}
+.media-credit a {
+	font-weight: normal;
+}
+.media-credit-container {
+	text-align: center;
+}
+#recent-media-sidebar {
+	float: right;
+	text-align: center;
+	width: 150px;
+	margin-top: 10px;
+	padding: 10px 0;
+	border-top: 4px double #999;
+	border-bottom: 4px double #999;
+}
+#recent-media-sidebar .author-media {
+	margin-bottom: 10px;
+}
+#recent-media-inline .author-media {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+

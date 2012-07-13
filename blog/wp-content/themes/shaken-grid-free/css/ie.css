@@ -1,0 +1,11 @@
+#header h1 a{
+	font-size:30px;
+}
+.menu li{
+	text-transform:none;
+}
+
+.menu li ul{
+	top:22px;
+}
+	

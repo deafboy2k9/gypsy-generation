@@ -1,0 +1,34 @@
+td img {vertical-align:bottom}
+th {text-align:left}
+td {vertical-align:top}
+.rounded {-moz-border-radius:15px;-webkit-border-radius:15px;padding:0 20px 20px 20px;background-color:white;border:solid 1px #333;}
+.cdn-rounded {padding:20px 10px}
+.rounded table{border-collapse:collapse}
+.rounded thead th {padding:.2em .4em}
+.rounded tbody td {}
+.logic {border:solid 1px #ccc;margin-bottom:20px}
+.logic th {padding:.2em .4em}
+.logic td {border:solid 1px #ccc;border-width: 1px 0 0 0;padding:.2em .4em}
+.logic td h4 {margin:0}
+
+.cdn-listing li {float:left;width:148px;min-height:140px;text-align:center; background:#efefef;}
+.cdn-listing li img {margin:10px}
+.cdn-setup {position:relative;-moz-border-radius:15px;-webkit-border-radius:15px;background-color:white;border:solid 1px #333}
+.cdn-setup h1 {padding-left:20px}
+.not-the-cdn {padding:10px;width:120px;position:absolute}
+.the-cdn {margin-left: 142px;padding-left:10px;border-bottom-right-radius:15px;-moz-border-radius-bottomright:15px;-webkit-border-bottom-right-radius:15px;border:dashed 2px #333;border-width:2px 0 0 2px;padding-bottom:10px }
+.the-cdn-approved {}
+
+.like th {vertical-align:top;padding-right:.4em}
+.like td {padding-bottom:4px}
+.ui-tabs .ui-tabs-hide {display: none}
+#tabs li {background-color:white;border:solid 1px black;padding:2px;margin-right:5px;float:left;margin-bottom:0px;border-bottom:none;border-top-left-radius:8px;-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;border-top-right-radius:8px;-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px}
+#tabs a {color:inherit;padding:3px;display:block;text-decoration:none}
+#tabs li.ui-state-active {background-color:#333;border:solid 1px #333;color:white;border-bottom:none}
+#tabs-open{-moz-border-radius:15px;-webkit-border-radius:15px;background-color:white;border:solid 1px #333;padding:20px;max-width:1210px;margin-bottom:30px}
+#tabs-1, #tabs-2 {background-color:white;border:solid 1px black;clear:left;margin-bottom:20px;padding:20px;-webkit-border-radius:15px;border-top-left-radius:0px;-moz-border-radius-topleft:0px;-webkit-border-top-left-radius:0px;max-width:1210px}
+.support-us {float:right;width:400px;padding:10px;background-color:#729DC9;border:1px solid #f60;margin:5px; color:white}
+.support-us b {color:#00467F;}
+.support-us a {color: #00467F; text-decoration: underline}
+.clean {clear:both}
+.std {width:600px;-moz-border-radius:15px;-webkit-border-radius:15px;background-color:white;border:solid 1px #333;padding:10px}

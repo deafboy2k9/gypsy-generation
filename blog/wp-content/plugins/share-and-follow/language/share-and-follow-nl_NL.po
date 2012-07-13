@@ -1,0 +1,1470 @@
+# Translation of the WordPress plugin Share and Follow 1.20.11 by Andy Killen.
+# Copyright (C) 2010 Andy Killen
+# This file is distributed under the same license as the Share and Follow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Share and Follow\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/share-and-follow\n"
+"POT-Creation-Date: 2010-09-06 16:52+0000\n"
+"PO-Revision-Date: 2010-11-30 19:52+0100\n"
+"Last-Translator: Wendy <wendy.1973@hotmail.com>\n"
+"Language-Team:  <andy@phat-reaction.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+
+#: admin-page.php:42
+#: functions.php:381
+#: share-and-follow.php:147
+msgid "follow:"
+msgstr "Volg"
+
+#: admin-page.php:45
+#: functions.php:145
+#: share-and-follow.php:150
+msgid "share:"
+msgstr "Delen"
+
+#: admin-page.php:52
+#: share-and-follow.php:157
+msgid "Share on technorati"
+msgstr "Delen op Technorati"
+
+#: admin-page.php:52
+#: share-and-follow.php:157
+msgid "Share this BLOG : TITLE on technorati"
+msgstr "Deel deze Blog"
+
+#: admin-page.php:53
+#: share-and-follow.php:158
+msgid "Share on xing"
+msgstr "Delen op Xing"
+
+#: admin-page.php:53
+#: share-and-follow.php:158
+msgid "Share this BLOG : TITLE on xing"
+msgstr "Deel deze Blog"
+
+#: admin-page.php:54
+#: share-and-follow.php:156
+msgid "Check my phone feed"
+msgstr "Controleer mijn telefoon feed"
+
+#: admin-page.php:55
+#: share-and-follow.php:160
+msgid "Share on vkontakte"
+msgstr "Delen op Vkontakte"
+
+#: admin-page.php:56
+#: functions.php:145
+#: share-and-follow.php:161
+#: share-widget.php:86
+msgid "Mixx it up"
+msgstr "Mixx it up"
+
+#: admin-page.php:57
+#: functions.php:148
+#: share-and-follow.php:162
+#: share-widget.php:87
+msgid "Share on Linkedin"
+msgstr "Delen op Linkedin"
+
+#: admin-page.php:58
+#: functions.php:150
+#: share-and-follow.php:163
+msgid "Recommend on Facebook"
+msgstr "Aanbevelen op Facebook"
+
+#: admin-page.php:59
+#: share-and-follow.php:164
+msgid "Tweet about it"
+msgstr "Tweet over dit"
+
+#: admin-page.php:60
+#: share-and-follow.php:165
+msgid "Tumblr it"
+msgstr "Tumblr dit"
+
+#: admin-page.php:61
+#: functions.php:152
+#: share-and-follow.php:166
+#: share-widget.php:88
+msgid "Share with Stumblers"
+msgstr "Delen met Stumblers"
+
+#: admin-page.php:62
+#: share-and-follow.php:167
+msgid "Digg this post"
+msgstr "Digg dit bericht"
+
+#: admin-page.php:63
+#: share-and-follow.php:168
+msgid "share via Reddit"
+msgstr "Delen via Reddit"
+
+#: admin-page.php:64
+#: functions.php:164
+#: share-and-follow.php:169
+#: share-widget.php:93
+msgid "Tip on Hyves"
+msgstr "Tip op Hyves"
+
+#: admin-page.php:65
+#: functions.php:158
+#: share-and-follow.php:170
+#: share-widget.php:90
+msgid "Bookmark on Delicious"
+msgstr "Bewaar op Delicious"
+
+#: admin-page.php:66
+#: functions.php:166
+#: share-and-follow.php:171
+#: share-widget.php:94
+msgid "Share on Orkut"
+msgstr "Delen op Orkut"
+
+#: admin-page.php:67
+#: functions.php:168
+#: share-and-follow.php:172
+#: share-widget.php:95
+msgid "Share via MySpace"
+msgstr "Delen via MySpace"
+
+#: admin-page.php:68
+#: share-and-follow.php:173
+msgid "Become my Facebook friend"
+msgstr "Word mijn Facebook friend"
+
+#: admin-page.php:69
+#: follow-widget.php:79
+#: functions.php:407
+#: share-and-follow.php:174
+msgid "Tweet with me"
+msgstr "Tweet met mij"
+
+#: admin-page.php:70
+#: share-and-follow.php:175
+msgid "Read my Tumbles."
+msgstr "Lees mijn Tumbles"
+
+#: admin-page.php:71
+#: share-and-follow.php:176
+msgid "Come on a mission"
+msgstr "Neem deel aan een missie"
+
+#: admin-page.php:72
+#: follow-widget.php:78
+#: functions.php:406
+#: share-and-follow.php:177
+msgid "Follow my Stumbles"
+msgstr "Volg mijn Stumbles"
+
+#: admin-page.php:73
+#: share-and-follow.php:178
+msgid "Become my friend on Hyves"
+msgstr "Word mijn vriend op Hyves"
+
+#: admin-page.php:74
+#: share-and-follow.php:179
+msgid "Become Orkut Buddies"
+msgstr "Word Orkut maatjes"
+
+#: admin-page.php:75
+#: share-and-follow.php:180
+msgid "Become a myspace follower"
+msgstr "Word een Myspace volger"
+
+#: admin-page.php:76
+#: follow-widget.php:77
+#: share-and-follow.php:181
+msgid "Follow me on FourSquare"
+msgstr "Volg mij op FourSquare"
+
+#: admin-page.php:77
+#: follow-widget.php:75
+#: functions.php:401
+#: share-and-follow.php:182
+msgid "Listen to my music"
+msgstr "Luister naar mijn muziek"
+
+#: admin-page.php:79
+#: admin-page.php:83
+#: follow-widget.php:87
+#: functions.php:393
+#: functions.php:397
+#: share-and-follow.php:184
+#: share-and-follow.php:188
+msgid "Connect with us"
+msgstr "Sluit je aan bij ons"
+
+#: admin-page.php:80
+#: follow-widget.php:85
+#: functions.php:394
+#: share-and-follow.php:185
+msgid "Join my address book"
+msgstr "Word lid van mijn adressen lijst"
+
+#: admin-page.php:81
+#: follow-widget.php:87
+#: functions.php:395
+#: share-and-follow.php:186
+msgid "Become Friends"
+msgstr "Word Vrienden"
+
+#: admin-page.php:82
+#: follow-widget.php:86
+#: functions.php:396
+#: share-and-follow.php:187
+msgid "Follow my actions"
+msgstr "Volg mijn activiteiten"
+
+#: admin-page.php:85
+#: follow-widget.php:88
+#: functions.php:421
+#: share-and-follow.php:190
+msgid "Read my posts"
+msgstr "Lees mijn berichten"
+
+#: admin-page.php:86
+#: follow-widget.php:89
+#: functions.php:422
+#: share-and-follow.php:191
+msgid "Listen to me"
+msgstr "Luister naar mij"
+
+#: admin-page.php:87
+#: follow-widget.php:89
+#: functions.php:423
+#: share-and-follow.php:192
+msgid "See my artwork"
+msgstr "Bekijk mij kunst"
+
+#: admin-page.php:88
+#: follow-widget.php:90
+#: functions.php:424
+#: share-and-follow.php:193
+msgid "Gamer? my mods"
+msgstr "Gamer? mijn verwijzingen"
+
+#: admin-page.php:89
+#: follow-widget.php:90
+#: functions.php:425
+#: share-and-follow.php:194
+msgid "See my pictures"
+msgstr "Bekijk mijn foto's"
+
+#: admin-page.php:90
+#: follow-widget.php:91
+#: functions.php:426
+#: share-and-follow.php:195
+msgid "Listen to the band"
+msgstr "Luister naar de band"
+
+#: admin-page.php:91
+#: follow-widget.php:82
+#: follow-widget.php:91
+#: functions.php:427
+#: share-and-follow.php:196
+msgid "Read my reviews"
+msgstr "Lees mijn reviews"
+
+#: admin-page.php:92
+#: follow-widget.php:92
+#: functions.php:428
+#: share-and-follow.php:197
+msgid "See what I share"
+msgstr "Bekijk wat ik deel"
+
+#: admin-page.php:94
+#: follow-widget.php:75
+#: share-and-follow.php:200
+msgid "Watch my videos"
+msgstr "Kijk naar mijn video's"
+
+#: admin-page.php:95
+#: follow-widget.php:76
+#: functions.php:403
+#: share-and-follow.php:201
+msgid "Tune to my channel"
+msgstr "Stem af op mijn kanaal"
+
+#: admin-page.php:96
+#: admin-page.php:97
+#: share-and-follow.php:202
+#: share-and-follow.php:203
+#: share-widget.php:85
+msgid "Buzz it up"
+msgstr "Buzz it up"
+
+#: admin-page.php:98
+#: share-and-follow.php:204
+msgid "Follow me"
+msgstr "Volg mij"
+
+#: admin-page.php:99
+#: follow-widget.php:76
+#: functions.php:405
+#: share-and-follow.php:205
+msgid "Check my tunes"
+msgstr "Controleer mijn tunes"
+
+#: admin-page.php:100
+#: share-and-follow.php:206
+msgid "Join my conversations"
+msgstr "Vergezel mijn gesprekken"
+
+#: admin-page.php:101
+#: follow-widget.php:79
+#: follow-widget.php:83
+#: follow-widget.php:86
+#: follow-widget.php:93
+#: functions.php:415
+#: functions.php:420
+#: share-and-follow.php:159
+#: share-and-follow.php:207
+msgid "Connect with me"
+msgstr "Sluit je aan bij mij"
+
+#: admin-page.php:102
+#: share-and-follow.php:208
+msgid "Read reviews"
+msgstr "Lees reviews"
+
+#: admin-page.php:103
+#: follow-widget.php:78
+#: functions.php:416
+#: share-and-follow.php:209
+msgid "See my photos"
+msgstr "Bekijk mijn foto's"
+
+#: admin-page.php:104
+#: share-and-follow.php:210
+msgid "Join the newsletter"
+msgstr "Word lid van de nieuwsbrief"
+
+#: admin-page.php:105
+#: share-and-follow.php:211
+msgid "RSS"
+msgstr "RSS"
+
+#: admin-page.php:106
+#: functions.php:174
+#: share-and-follow.php:212
+#: share-widget.php:96
+msgid "Tell a friend"
+msgstr "Vertel een vriend"
+
+#: admin-page.php:107
+#: share-and-follow.php:213
+msgid "here is a link to a site I really like. "
+msgstr "Hier is een link naar een site die ik echt leuk vind"
+
+#: admin-page.php:108
+#: share-and-follow.php:214
+msgid "Subscribe to my YouTube Channel"
+msgstr "Abonneer je op mijn YouTube Channel"
+
+#: admin-page.php:109
+#: share-and-follow.php:215
+msgid "Subscribe to the comments on this post"
+msgstr "Abonneer u op de reacties op dit bericht"
+
+#: admin-page.php:110
+#: functions.php:172
+#: share-and-follow.php:216
+#: share-widget.php:97
+#: share-widget.php:99
+msgid "Print for later"
+msgstr "Print voor later"
+
+#: admin-page.php:111
+#: functions.php:146
+#: share-and-follow.php:217
+#: share-widget.php:86
+msgid "Share this BLOG : TITLE on Mixx"
+msgstr "Deel deze BLOG : TITLE op Mixx"
+
+#: admin-page.php:112
+#: functions.php:149
+#: share-and-follow.php:218
+msgid "Share this BLOG : TITLE on Linkedin"
+msgstr "Deel deze BLOG : TITLE op Linkedin"
+
+#: admin-page.php:113
+#: functions.php:151
+#: share-and-follow.php:219
+#: share-widget.php:83
+msgid "Recommend this BLOG : TITLE on Facebook"
+msgstr "Raad dit BLOG aan : TITLE op Facebook"
+
+#: admin-page.php:114
+#: functions.php:153
+#: share-and-follow.php:220
+#: share-widget.php:88
+msgid "Share this BLOG : TITLE with Stumblers"
+msgstr "Deel deze BLOG : TITLE met Stumblers"
+
+#: admin-page.php:115
+#: functions.php:155
+#: share-and-follow.php:221
+#: share-widget.php:89
+msgid "Tweet this BLOG : TITLE on Twitter"
+msgstr "Tweet deze BLOG : TITLE op Twitter"
+
+#: admin-page.php:116
+#: functions.php:157
+#: share-and-follow.php:222
+#: share-widget.php:81
+msgid "Tumblr. this BLOG : TITLE "
+msgstr "Tumblr. deze BLOG : TITLE "
+
+#: admin-page.php:117
+#: functions.php:159
+#: share-and-follow.php:223
+#: share-widget.php:90
+msgid "Bookmark this BLOG : TITLE on Delicious"
+msgstr "Bewaar deze BLOG : TITLE op Delicious"
+
+#: admin-page.php:118
+#: functions.php:147
+#: share-and-follow.php:224
+#: share-widget.php:82
+msgid "Share this BLOG : TITLE on vkontakte"
+msgstr "Deel deze BLOG : TITLE op Vkontakte"
+
+#: admin-page.php:119
+#: functions.php:161
+#: share-and-follow.php:225
+#: share-widget.php:91
+msgid "Digg this BLOG : TITLE"
+msgstr "Digg deze BLOG : TITLE"
+
+#: admin-page.php:120
+#: functions.php:163
+#: share-and-follow.php:226
+#: share-widget.php:92
+msgid "Share this BLOG : TITLE on Reddit"
+msgstr "Deel deze BLOG : TITLE op Reddit"
+
+#: admin-page.php:121
+#: functions.php:165
+#: share-and-follow.php:227
+#: share-widget.php:93
+msgid "Tip this BLOG : TITLE on Hyves"
+msgstr "Tip deze BLOG : TITLE op Hyves"
+
+#: admin-page.php:122
+#: functions.php:167
+#: share-and-follow.php:228
+#: share-widget.php:94
+msgid "Share this BLOG : TITLE on Orkut"
+msgstr "Deel deze BLOG : TITLE op Orkut"
+
+#: admin-page.php:123
+#: functions.php:169
+#: share-and-follow.php:229
+#: share-widget.php:95
+msgid "Share this BLOG : TITLE via MySpace"
+msgstr "SDeel deze BLOG : TITLE via MySpace"
+
+#: admin-page.php:124
+#: functions.php:171
+#: share-and-follow.php:230
+msgid "Follow this BLOG : TITLE comments"
+msgstr "Volg deze BLOG : TITLE reacties"
+
+#: admin-page.php:125
+#: functions.php:173
+#: share-and-follow.php:231
+#: share-widget.php:97
+#: share-widget.php:99
+msgid "Print this BLOG : TITLE for reading later"
+msgstr "Print deze BLOG : TITLE om later te lezen"
+
+#: admin-page.php:126
+#: functions.php:175
+#: share-and-follow.php:232
+#: share-widget.php:96
+msgid "Tell a friend about this BLOG : TITLE "
+msgstr "Vertel een vriend over deze BLOG : TITLE "
+
+#: admin-page.php:127
+#: admin-page.php:129
+#: functions.php:177
+#: share-and-follow.php:233
+#: share-and-follow.php:234
+#: share-widget.php:85
+msgid "Buzz up this BLOG : TITLE "
+msgstr "Buzz up deze BLOG : TITLE "
+
+#: admin-page.php:128
+#: follow-widget.php:88
+#: functions.php:399
+#: share-and-follow.php:198
+msgid "Digg my stuff"
+msgstr "Digg mijn "
+
+#: admin-page.php:132
+msgid "Settings Reset."
+msgstr "Reset instellingen"
+
+#: admin-page.php:133
+msgid "All setings have now been reset to installation defaults, your widget settings have not been effected.  You will need to re-add your follow links. <a href='options-general.php?page=share-and-follow.php'>Return to the adminstration page</a> to make the changes"
+msgstr "Alle instellingen zijn nu gereset om de installatie te herstellen, jouw widget instellingen zijn niet veranderd. Je moet opnieuw jouw follow links toevoegen. <a href='options-general.php?page=share-and-follow.php'> Ga terug naar de administratie pagina </ a> om de wijzigingen aan te brengen."
+
+#: admin-page.php:202
+msgid "Settings Updated."
+msgstr "Instellingen bijgewerkt"
+
+#: admin-page.php:206
+msgid "if your feeling lovely and really like this plug-in, do the right thing and buy us some beer.  It&#39;s usually &euro;4.50 here in Amsterdam for a pint, and we will give you a link from"
+msgstr "Mocht je je goed voelen en vind je deze plug-in helemaal het einde, koop ons dan een biertje. Het is € 4,50 voor een pint hier in Amsterdam en dan geven wij u een link van"
+
+#: admin-page.php:207
+msgid "Not got any cash? then why not blog about the plugin or give us a <a href=\"http://wordpress.org/extend/plugins/share-and-follow/\">rating on the Wordpress site</a>.... help to spread the love."
+msgstr "Geen geld? Waarom blog je dan niet over de plug-in of geef ons een<a href=\"http://wordpress.org/extend/plugins/share-and-follow/\">waardering op de Wordpress website</a>....Help to spread the love."
+
+#: admin-page.php:216
+msgid "Share and Follow Administration"
+msgstr "Deel en Volg Bestuur"
+
+#: admin-page.php:217
+msgid "Here you can administer either the Follow Tab, or the Share Links on a Post.  If you want to admin the sidebar widget,  you need to goto the "
+msgstr "Hier kun je het beheer van de Follow Tab, of de Share Links volgen op een bericht. Als u de sidebar widget wilt beheren, moet u naar de"
+
+#: admin-page.php:217
+msgid "widgets section."
+msgstr "widget gedeelte"
+
+#: admin-page.php:217
+msgid " However for the Follow widget to work with anything except RSS you will have to fill out the details below in the "
+msgstr " Echter voor de follow widget, om te werken met alles behalve RSS, zul je de details moeten invullen in de onderstaande "
+
+#: admin-page.php:217
+msgid "follow section"
+msgstr "follow gedeelte"
+
+#: admin-page.php:218
+msgid "More"
+msgstr "Meer"
+
+#: admin-page.php:218
+msgid "documentation"
+msgstr "documentatie"
+
+#: admin-page.php:218
+msgid " on how to use this plugin and it&#39;s options &#40;Share Widget, Follow Widget, Share on Posts, Shortcode in Post, Follow Tab, Theme Tags&#41;"
+msgstr "over het gebruik van deze plugin en de opties (Deel Widget, Volg Widget, Delen van Berichten, Shortcode in Bericht, Volg Tab, Thema Tags)"
+
+#: admin-page.php:238
+msgid "Share Icons Setup"
+msgstr "Deel Icons Setup"
+
+#: admin-page.php:239
+msgid "Allow Share Icons to be added to the End of a Post?"
+msgstr "Sta toe om Share Icons toe te voegen aan het einde van een bericht?"
+
+#: admin-page.php:241
+msgid "Selecting &quot;No&quot; will disable the content from being added into the end of a post."
+msgstr "Bij het selecteren van \"Nee\" zal de inhoud uitschakelen die zou worden toegevoegd aan het einde van een bericht."
+
+#: admin-page.php:242
+#: admin-page.php:243
+#: admin-page.php:277
+#: admin-page.php:278
+#: admin-page.php:292
+#: admin-page.php:293
+#: admin-page.php:369
+#: admin-page.php:370
+#: admin-page.php:399
+#: admin-page.php:400
+#: admin-page.php:549
+#: admin-page.php:550
+#: admin-page.php:612
+#: admin-page.php:613
+msgid "checked=\"checked\""
+msgstr "Gecontroleerd"
+
+#: admin-page.php:242
+#: admin-page.php:292
+#: admin-page.php:369
+#: admin-page.php:399
+#: admin-page.php:549
+#: admin-page.php:612
+#: follow-widget.php:105
+#: share-widget.php:112
+msgid "Yes"
+msgstr "Ja"
+
+#: admin-page.php:243
+#: admin-page.php:293
+#: admin-page.php:370
+#: admin-page.php:400
+#: admin-page.php:550
+#: admin-page.php:613
+#: follow-widget.php:106
+#: share-widget.php:113
+msgid "No"
+msgstr "Nee"
+
+#: admin-page.php:244
+msgid "Where to show them"
+msgstr "Waar will je ze laten zien"
+
+#: admin-page.php:245
+msgid "Choose where on your site the icons will be automatically added"
+msgstr " Kies waar op jouw site de icons automatisch wordt toegevoegd"
+
+#: admin-page.php:246
+msgid "pages"
+msgstr "pagina's"
+
+#: admin-page.php:246
+msgid "posts"
+msgstr "berichten"
+
+#: admin-page.php:246
+msgid "author pages"
+msgstr "auteur pagina's"
+
+#: admin-page.php:246
+msgid "home page"
+msgstr "Home pagina"
+
+#: admin-page.php:246
+msgid "tags, archive or catagory page"
+msgstr "tags, archief of categorie-pagina"
+
+#: admin-page.php:253
+msgid "exclude these IDs :"
+msgstr "Sluit uit deze IDs :"
+
+#: admin-page.php:254
+msgid "exclude pages or posts by entering IDs as a comma separated list. i.e. 1, 2, 3, 4   (ideal for About and Contact page)"
+msgstr "uitsluiten van pagina's of berichten van het invoeren van id's als een door komma's gescheiden lijst. D.w.z. 1, 2, 3, 4 (ideaal voor Info en Contact-pagina)"
+
+#: admin-page.php:257
+msgid "Size of Icons on Posts"
+msgstr "De maat van de Icons in berichten"
+
+#: admin-page.php:266
+msgid "Share icons display style"
+msgstr "Share icons stijl"
+
+#: admin-page.php:268
+#: admin-page.php:470
+#: follow-widget.php:123
+msgid "Icon and Text"
+msgstr "Icons en Tekst"
+
+#: admin-page.php:269
+#: admin-page.php:471
+#: follow-widget.php:124
+msgid "Text only"
+msgstr "Alleen tekst"
+
+#: admin-page.php:270
+#: admin-page.php:473
+#: follow-widget.php:125
+msgid "Icon only"
+msgstr "Alleen icon"
+
+#: admin-page.php:276
+msgid "Use &lt;img&gt; Tag or CSS images?"
+msgstr "Gebruik <img> Tag-of CSS-beelden?"
+
+#: admin-page.php:277
+msgid "CSS(default)"
+msgstr "CSS(standaard)"
+
+#: admin-page.php:278
+msgid "IMG tag"
+msgstr "IMG tag"
+
+#: admin-page.php:281
+msgid "Element spacing (in px)"
+msgstr "Element afstand (in px)"
+
+#: admin-page.php:291
+msgid "Show heading prefix"
+msgstr "Toon rubriek prefix"
+
+#: admin-page.php:296
+msgid "Heading text"
+msgstr "Koptekst"
+
+#: admin-page.php:297
+msgid "Share text "
+msgstr "Deel tekst"
+
+#: admin-page.php:300
+msgid "Share Links to display"
+msgstr "Share Links om te laten zien"
+
+#: admin-page.php:301
+msgid "The popup text uses two case sensitive keywords, they are <strong>BLOG</strong> &amp; <strong>TITLE</strong>. The word <strong>BLOG</strong> is replaced with the word \"post\" or \"blog\", and the word <strong>TITLE</strong> is automatically replaced with the full title of your blog or post. "
+msgstr "De popup tekst maakt gebruik van twee hoofdlettergevoelig trefwoorden, deze zijn <strong> blog </ strong> & <strong> TITEL </ strong>. Het woord <strong> blog </ strong> is vervangen door het woord \ \"bericht \" of \ \"blog \", en het woord <strong> TITEL </ strong> wordt automatisch vervangen door de volledige titel van je blog of bericht."
+
+#: admin-page.php:305
+#: admin-page.php:511
+#: follow-widget.php:141
+#: share-widget.php:147
+msgid "Show"
+msgstr "Laten zien"
+
+#: admin-page.php:305
+#: follow-widget.php:141
+#: share-widget.php:147
+msgid "Link text"
+msgstr "Link tekst"
+
+#: admin-page.php:305
+#: share-widget.php:147
+msgid "Popup text"
+msgstr "Popup tekst"
+
+#: admin-page.php:332
+msgid "What it says in the email message"
+msgstr "Wat zegt het e-mailbericht"
+
+#: admin-page.php:339
+msgid "Setup short URLs for twitter"
+msgstr "Set up korte URL's voor Twitter"
+
+#: admin-page.php:341
+msgid "Bit.ly user name"
+msgstr "Bit.ly gebruikersnaam"
+
+#: admin-page.php:342
+msgid "Bit.ly API Code"
+msgstr "Bit.ly API Code"
+
+#: admin-page.php:343
+msgid "Setting up a <a href=\"http://bit.ly/a/sign_up\">bit.ly account</a> and entering the details above, the system will automatically make URLs short for sharing on twitter."
+msgstr "Het opzetten van een <a href=\"http://bit.ly/a/sign_up\"> bit.ly account </ a> en het invoeren van de gegevens hierboven, het systeem zal automatisch URL's korter maken voor het delen op Twitter."
+
+#: admin-page.php:346
+msgid "Sorry, but you can't have short URLs until you upgrade your version of PHP to support JSON.  This means you need version PHP 5.2.0 or above to be installed on your server, please talk to your hosting company about it. "
+msgstr "Sorry, maar je kunt geen korte URL's krijgen totdat je een upgrade van jouw versie van PHP om JSON te ondersteunen. Dit betekent dat je de versie PHP 5.2.0 of hoger moet installeren op jouw server, neem hierover contact op met uw hosting bedrijf."
+
+#: admin-page.php:350
+msgid "What a tweets look like"
+msgstr "Hoe een tweets eruit ziet"
+
+#: admin-page.php:352
+msgid "Just the URL"
+msgstr "Alleen de URL"
+
+#: admin-page.php:353
+msgid "Title of the post or page and the URL"
+msgstr "Titel van het bericht of pagina en de URL"
+
+#: admin-page.php:354
+msgid "Default message to prefix the URL"
+msgstr "Standaard bericht naar de URL voorvoegsel "
+
+#: admin-page.php:356
+msgid "Entering a message in here will make that the default for all tweets. If you add the custom field of \"twitter_text\" in a post, the value will be a unique message"
+msgstr "Het invoeren van een bericht hier, zal dat standaard worden voor alle tweets. Als je de aangepaste gebied van \ \"twitter_text \" in een bericht toevoegt, zal de waarde een unieke boodschap"
+
+#: admin-page.php:359
+msgid "Entering a message in here will make that the default for all tweets. The ideal way to use this is for adding \"VIA @twittername\" to the end of tweets automatically.  If you add the custom field of \"twitter_suffix\" in a post, the value will be a unique suffix for the tweet"
+msgstr "Het invoeren van een bericht in hier zal het standaard maken voor alle tweets. De ideale manier om dit te gebruiken is het automatisch toevoegen van \ \"VIA @ twittername \" aan het einde van de tweets . Als je het aangepaste veld van \ \"twitter_suffix \" in een post toevoegt zal de waarde een unieke achtervoegsel voor de tweet worden"
+
+#: admin-page.php:362
+#: admin-page.php:541
+#: admin-page.php:605
+#: admin-page.php:637
+msgid "Update Settings"
+msgstr "Update-instellingen"
+
+#: admin-page.php:366
+msgid "Follow Side/Top/Bottom Tab setup"
+msgstr "onder Tabblad setup"
+
+#: admin-page.php:367
+msgid "Show the Follow Tab on Screen"
+msgstr "Toon Volg Tab-toets op het scherm"
+
+#: admin-page.php:368
+msgid "Selecting \"No\" will disable the content from being added into to your website."
+msgstr "Selecteren \ \"Nee \" zal de inhoud uitschakelen van worden toegevoegd aan uw website."
+
+#: admin-page.php:373
+msgid "Background Color"
+msgstr "Achtergrond kleur"
+
+#: admin-page.php:378
+msgid "Transparent"
+msgstr "Transparant"
+
+#: admin-page.php:380
+msgid "Border Color"
+msgstr "Randkleur"
+
+#: admin-page.php:384
+msgid "No Border"
+msgstr "Geen rand"
+
+#: admin-page.php:386
+msgid "for example <b>#f60</b> is entered as <b>f60</b> or <b>#ff6600</b> becomes <b>ff6600</b>, clicking <b>Transparent</b> will make the tab have no color and <b>no border</b> will set the border to disapear"
+msgstr "bijvoorbeeld <b>#f60</b> ingevoerd als <b>f60</b> of<b>#ff6600</b> wordt <b>ff6600</b>, te klikken <b>Transparant</b> zal het tabblad geen kleur geven <b> geen rand </ b> zal de rand doen laten verdwijnen"
+
+#: admin-page.php:389
+msgid "Follow Tab Location"
+msgstr "Follow Tab Locatie"
+
+#: admin-page.php:391
+msgid "Right"
+msgstr "Rechts"
+
+#: admin-page.php:392
+msgid "Left"
+msgstr "Links"
+
+#: admin-page.php:393
+msgid "Bottom"
+msgstr "Naar beneden"
+
+#: admin-page.php:394
+msgid "Top"
+msgstr "Terug naar boven"
+
+#: admin-page.php:398
+msgid "Prefix with a heading"
+msgstr "Prefix met een koptekst"
+
+#: admin-page.php:403
+msgid "Minimum width of screen"
+msgstr "Minimum beeld breedte"
+
+#: admin-page.php:404
+msgid "If you set this, it will use a bit of javascript to remove the Right or Left tab from the screen when the screen size is the same or smaller that the entered number."
+msgstr "Als u dit instelt, zal het gebruik maken van javascript om de rechter of linker tabblad van het scherm te verwijderen als de grootte van het scherm hetzelfde is of kleiner dan de ingevoerde nummer."
+
+#: admin-page.php:411
+msgid "Follow Word Color"
+msgstr "Volg Word Color"
+
+#: admin-page.php:413
+msgid "Red"
+msgstr "Rood"
+
+#: admin-page.php:414
+msgid "Pink"
+msgstr "Roze"
+
+#: admin-page.php:415
+msgid "Blue"
+msgstr "Blauw"
+
+#: admin-page.php:416
+msgid "White"
+msgstr "Wit"
+
+#: admin-page.php:421
+msgid "Black"
+msgstr "Zwart"
+
+#: admin-page.php:425
+msgid "Follow Heading text replacement"
+msgstr "Volg koptekst vervanging"
+
+#: admin-page.php:426
+msgid "On screen text"
+msgstr "Tekst op het scherm"
+
+#: admin-page.php:427
+msgid "Replacement Word"
+msgstr "Vervangend Woord"
+
+#: admin-page.php:428
+msgid "English words"
+msgstr "Engelse woorden"
+
+#: admin-page.php:435
+msgid "Dutch words"
+msgstr "Nederlandse woorden"
+
+#: admin-page.php:442
+msgid "French words"
+msgstr "Franse woorden"
+
+#: admin-page.php:448
+msgid "Portuguese words"
+msgstr "Portugeese woorden"
+
+#: admin-page.php:455
+msgid "Spanish words"
+msgstr "Spaanse woorden"
+
+#: admin-page.php:465
+msgid "The text replacement only applies to the side tabs.  It has been made that way to give virtical text, but does limit the word choices.  Use a top or bottom tab to show the text that you want, not the replacement text."
+msgstr "De tekst vervanging geldt alleen voor de side tabbladen. Het is zo gemaakt om op die manier virtical tekst te geven, maar het beperkt de woord keuze. Gebruik een boven-of onderkant van de tab voor de tekst die u wilt laten zien en niet om de vervangende tekst te tonen."
+
+#: admin-page.php:468
+msgid "Follow icons display style"
+msgstr "Volg pictogrammen stijl"
+
+#: admin-page.php:472
+msgid "Text replacement"
+msgstr "Tekst vervanging"
+
+#: admin-page.php:477
+msgid "Size of Follow Icons on tab"
+msgstr "Grootte van Volg Pictogrammen op het tabblad"
+
+#: admin-page.php:490
+msgid "Follow tab icons spacing"
+msgstr "Volg tabblad iconen afstand"
+
+#: admin-page.php:498
+msgid "Side tab distance from top of screen"
+msgstr "Side tabblad afstand van de bovenkant van het scherm"
+
+#: admin-page.php:509
+msgid "Follow Links  to display in the follow tab (also needed for follow widget)"
+msgstr "Volg de links om te laten zien in de follow tab (ook nodig voor de follow widget)"
+
+#: admin-page.php:511
+msgid "Link Text"
+msgstr "Link tekst"
+
+#: admin-page.php:511
+msgid "Link destination"
+msgstr "Link bestemming"
+
+#: admin-page.php:535
+msgid "this link is automatically setup to be your wordpress feed."
+msgstr "Deze link wordt automatisch ingesteld om uw WordPress feed te worden."
+
+#: admin-page.php:539
+msgid "Important"
+msgstr "Belangrijk"
+
+#: admin-page.php:539
+msgid "Always put in the full URL with http:// at the beginning when entering a Link Destination."
+msgstr "Voer altijd de volledige URL met http:// aan het begin in bij het invoeren van een link bestemming."
+
+#: admin-page.php:545
+msgid "Setup share image"
+msgstr "Set up share afbeelding"
+
+#: admin-page.php:546
+msgid "By setting up a share image, social networks such as Facebook will choose that share image as its primary image to display on screen in news feeds inside facebook. This is especially useful if the theme is made of only image replacement images rather than HTML tag images, as facebook will now have the opportunity to show an image rather than none at all"
+msgstr "Door het opzetten van een Share afbeelding, zal de sociale netwerken zoals Facebook kiezen voor de share afbeelding als haar primaire afbeelding op het scherm in nieuws-feeds binnen facebook. Dit is vooral handig als het thema is gemaakt van alleen afbeelding vervangende beelden in plaats van HTML-tag beelden. Facebook heeft nu de mogelijkheid om een beeld te tonen in plaats van helemaal geen."
+
+#: admin-page.php:547
+msgid "Show Share Images"
+msgstr "Toon Share beelden"
+
+#: admin-page.php:548
+msgid "Add the share image metadata to the head section of your web pages.  Saying \"no\" will remove the functionality"
+msgstr "Voeg de share beeld metadat toe aan het bovenste gedeelte van je webpagina. Gebruik je \"nee\" dat zal de functie verwijderen"
+
+#: admin-page.php:551
+msgid "Setup Default Gravatar image"
+msgstr "Set up Standaard Gravatar beeld"
+
+#: admin-page.php:552
+msgid "enter your email address"
+msgstr "voer je emailadres in"
+
+#: admin-page.php:553
+msgid "alternative default image"
+msgstr "altenatieve standaard beeld"
+
+#: admin-page.php:554
+msgid "You can choose an alternative image to display rather than the standard gravatar one, if so, enter the URL here including http://, useful for high volume sites."
+msgstr "Je kan kiezen voor een altenatieve gravatar dan de standaard gravatar, mocht het zo zijn, voer de URL in inclusief http://, dit kan nuttig zijn voor hoog volume sites"
+
+#: admin-page.php:555
+msgid "Author Settings"
+msgstr "Auteur instellingen"
+
+#: admin-page.php:556
+msgid "Use default gravatar"
+msgstr "Gebruik standaard gravatar"
+
+#: admin-page.php:557
+msgid "Use author email to generate gravatar"
+msgstr "Gebruik de auteur email om te gravatar te genereren"
+
+#: admin-page.php:558
+msgid "Site Logo setup"
+msgstr "Site logo set up"
+
+#: admin-page.php:559
+msgid "enter image URL"
+msgstr "voer beeld URL in"
+
+#: admin-page.php:560
+msgid "Include http:// in the URL, make sure that the image is no larger than 130px wide by 110px high."
+msgstr "Voeg toe http:// in de URL, wees er zeker van dat het beeld niet groter is dan 130px wijd bij 110px hoog."
+
+#: admin-page.php:561
+msgid "<strong><em>Important:</em></strong> the system will default to this image if there is not an image in a post or page that it can find."
+msgstr "<strong><em>Belangrijk:</em></strong> het systeem zal standaard dit beeld gebruiken als het geen afbeelding in een post of pagina kan vinden."
+
+#: admin-page.php:562
+msgid "Setup image logic: Who, What, Where."
+msgstr "Set up beeld logica: Wie, Wat, Waar"
+
+#: admin-page.php:564
+msgid "Type of page"
+msgstr "Type van de pagina"
+
+#: admin-page.php:564
+msgid "Display logic"
+msgstr "Display Logica"
+
+#: admin-page.php:566
+msgid "Pages"
+msgstr "Pagina's"
+
+#: admin-page.php:567
+#: admin-page.php:577
+msgid "Author Gravatar"
+msgstr "Auteur Gravatar"
+
+#: admin-page.php:568
+#: admin-page.php:578
+#: admin-page.php:588
+#: admin-page.php:597
+msgid "Site Logo"
+msgstr "Site Logo"
+
+#: admin-page.php:569
+msgid "Image from page"
+msgstr "Beeld van Pagina"
+
+#: admin-page.php:570
+#: admin-page.php:580
+#: admin-page.php:589
+#: admin-page.php:598
+msgid "optional default image"
+msgstr "Optioneel Standaard Beeld"
+
+#: admin-page.php:572
+#: admin-page.php:582
+#: admin-page.php:591
+#: admin-page.php:600
+msgid "Enter full URL including http:// to the image you want to use. Making the field blank will restore the radio button logic"
+msgstr "Voer de volledige URL inclusief http:// het beeld dat u wilt gebruiken. Het veld leeg maken zal de radio-knop logica herstellen  "
+
+#: admin-page.php:576
+msgid "Posts"
+msgstr "Berichten"
+
+#: admin-page.php:579
+msgid "Image from post"
+msgstr "Beeld van bericht"
+
+#: admin-page.php:586
+msgid "Homepage"
+msgstr "Homepage"
+
+#: admin-page.php:587
+#: admin-page.php:596
+msgid "Default Author Gravatar"
+msgstr "Standaard Auteur Gravatar"
+
+#: admin-page.php:595
+msgid "Archive pages"
+msgstr "Archief pagina"
+
+#: admin-page.php:604
+msgid "It is possible to have a specific image setup in a post or page, by adding a custom field called \"image_src\" and setting an image URL uniquely for that page or post"
+msgstr "Het is mogelijk om een specifieke beelden opzet te hebben in een bericht of pagina door het toevoegen van een aangepaste veld genaamd \"image_src\" en het instellen van een afbeelding URL uniek voor die pagina of post"
+
+#: admin-page.php:609
+msgid "CSS and style Configuration"
+msgstr "CSS en Stijl Configuratie"
+
+#: admin-page.php:610
+msgid "Use external CSS?"
+msgstr "Gebruik externe CSS?"
+
+#: admin-page.php:611
+msgid "You have the choice to use an external stylesheet or a style section in the head of the HTML.  If you are using caching and need an ultra fast site, say NO as it will reduce the number of connections.  As it generates the style setion in the head on-the-fly it is slower to do it this way without using caching.  If you need to know, the plugin uses the following external CSS file"
+msgstr "Je hebt de keuze om een externe stylesheet  of een stijl sectie in het bovenste gedeelte van de HTML te gerbuiken. Als je caching gebruikt en je wilt een ultra snelle site, zeg NEE omdat het de aantal verbindingen zal verminderen. Omdat het de afdeling stijl in het bovenste gedeelte on-the-fly genereert is het langzamer te doen het op deze manier zonder het gebruik van caching. Als u wilt weten, de plugin gebruikt de volgende externe CSS-bestand"
+
+#: admin-page.php:614
+msgid "be careful as it reloads the CSS dynamically evey time there is a change to the admin screen"
+msgstr "wees voorzichtig omdat het de CSS elke keer opnieuw laad als er een verandering is in the administratie pagina"
+
+#: admin-page.php:615
+msgid "Add your own CSS"
+msgstr "Voeg je eigen CSS toe"
+
+#: admin-page.php:617
+msgid "Add theme support"
+msgstr "Voeg thema ondersteuning toe"
+
+#: admin-page.php:618
+msgid "Wordpress has many themes, slowly over time we will be adding more and more CSS packs to support those themes. For now we have a selection of the top ones. <em>Please note</em> that Kubric/Default will work for most themes no matter what the name, as they have been based on this theme originally."
+msgstr "Wordpress heeft vele thema's, langzamerhand zullen we meer en meer CSS pakketten toevoegen om deze thema's te ondersteunen. Voor nu hebben wij een selectie van toppers. <em>Houd in gedachte</em> dat Kubric/Default zal werken voor the meeste thema's en het maakt niet uit welke naam. Omdat deze gebaseerd zijn op het originele thema "
+
+#: admin-page.php:631
+msgid "Page Print Support"
+msgstr "Pagina Print Ondersteuning"
+
+#: admin-page.php:632
+msgid "Printing a page is different to reading it from the screen. There are many things that do not need to be there on a printed page, such as the menu or navigation.  Use the entry box to provide a comment list of CSS selectors to help control how your printouts look.  By default a few have been added to help you."
+msgstr "Afdrukken van een pagina is anders dan het lezen van het scherm. Er zijn veel dingen niet nodig op een afgedrukte pagina, zoals het menu of navigatie. Gebruik het invoerveld om een reactie lijst van CSS selectors, het helpt u te controleren hoe uw afdrukken er uit zien. Een aantal zijn toegevoegd om u te helpen."
+
+#: admin-page.php:635
+msgid "Add your own Print CSS "
+msgstr "Voeg je eigen Print CSS toe"
+
+#: admin-page.php:646
+msgid "Reset settings?"
+msgstr "Instellingen resetten?"
+
+#: admin-page.php:647
+msgid "Want to reset the settings of Share and Follow? click the reset button below to restore the installation defaults."
+msgstr "Wilt u de instellingen van Share and Follow resetten? Klik op de reset knop hier beneden om de standaard instellingen te herstellen"
+
+#: admin-page.php:648
+msgid "<em><b>important:</b></em> this will remove all of your settings.  You might want to save this page so you have a listing of your settings before pressing the reset button"
+msgstr "<em><b>belangrijk:</b></em> dit zal al je instellingen verwijderen.  U wilt misschien deze pagina op slaan zodat je een overzicht van uw instellingen hebt voordat u op de reset-knop drukt"
+
+#: admin-page.php:649
+msgid "Reset Settings"
+msgstr "Reset-instellingen"
+
+#: follow-widget.php:77
+#: functions.php:391
+msgid "Become a Fan"
+msgstr "Word een Fan"
+
+#: follow-widget.php:80
+#: functions.php:409
+msgid "Subscribe to my Channel"
+msgstr "Schrijf je in op mijn Kanaal"
+
+#: follow-widget.php:80
+#: functions.php:410
+msgid "Become Hyves friends"
+msgstr "Word Hyves vrienden"
+
+#: follow-widget.php:81
+#: functions.php:411
+msgid "Become Orkut friends"
+msgstr "Word Orkut vrienden"
+
+#: follow-widget.php:81
+msgid "Become MySpace follower"
+msgstr "Word MySpace volger"
+
+#: follow-widget.php:82
+msgid "Tumblr. me"
+msgstr "Tumblr. mij"
+
+#: follow-widget.php:83
+msgid "Go on a mission with me"
+msgstr "Ga op een missie met mij"
+
+#: follow-widget.php:84
+#: functions.php:419
+msgid "Join the conversation"
+msgstr "Neem deel aan het gesprek"
+
+#: follow-widget.php:84
+msgid "Join our newsletter"
+msgstr "Word lid van onze nieuwsbrief"
+
+#: follow-widget.php:85
+#: functions.php:418
+msgid "RSS feed"
+msgstr "Rss onderhoud"
+
+#: follow-widget.php:92
+msgid "See my phone feed"
+msgstr "Bekijk mijn telefonisch onderhoud"
+
+#: follow-widget.php:100
+#: share-widget.php:107
+msgid "Title:"
+msgstr "Titel:"
+
+#: follow-widget.php:104
+#: share-widget.php:111
+msgid "CSS images?"
+msgstr "CSS beelden"
+
+#: follow-widget.php:110
+#: share-widget.php:117
+msgid "Size:"
+msgstr "Maat:"
+
+#: follow-widget.php:121
+#: share-widget.php:129
+msgid "Style:"
+msgstr "Stijl:"
+
+#: follow-widget.php:130
+msgid "Share Icons display direction:"
+msgstr "Aantonen van richting van Share pictogrammen "
+
+#: follow-widget.php:132
+#: share-widget.php:139
+msgid "list"
+msgstr "lijst"
+
+#: follow-widget.php:133
+#: share-widget.php:140
+msgid "row"
+msgstr "rij"
+
+#: follow-widget.php:137
+#: share-widget.php:143
+msgid "icons to display"
+msgstr "pictogrammen te tonen"
+
+#: follow-widget.php:164
+msgid "<b><em>important</em> :</b>  Nothing will display here until you have added the link in the admin screen. Add your follow links in to the"
+msgstr "<b><em>belangrijk</em> :</b>  Niets zal hier worden weergegeven totdat u de link heeft toegevoegd in de admin-scherm. Voeg je volg links in tot de"
+
+#: follow-widget.php:164
+msgid "admin page"
+msgstr "Administratie pagina"
+
+#: functions.php:18
+#: functions.php:110
+msgid "Recommend"
+msgstr "Annbevelen"
+
+#: functions.php:19
+#: functions.php:111
+msgid "Stumble uppon"
+msgstr "Stumble Uppon"
+
+#: functions.php:20
+#: functions.php:112
+msgid "Tweet"
+msgstr "Tweet"
+
+#: functions.php:21
+#: functions.php:113
+msgid "Bookmark"
+msgstr "Bewaar"
+
+#: functions.php:22
+#: functions.php:114
+msgid "Digg"
+msgstr "Digg"
+
+#: functions.php:23
+#: functions.php:25
+#: functions.php:26
+#: functions.php:115
+#: functions.php:117
+#: functions.php:118
+msgid "Share"
+msgstr "Deel"
+
+#: functions.php:24
+#: functions.php:116
+msgid "Tip"
+msgstr "Tip"
+
+#: functions.php:154
+#: share-widget.php:89
+msgid "Tweet this"
+msgstr "Tweet dit"
+
+#: functions.php:156
+msgid "Tumblr. this"
+msgstr "Tumblr dit"
+
+#: functions.php:160
+#: share-widget.php:91
+msgid "Digg this"
+msgstr "Digg dit"
+
+#: functions.php:162
+#: share-widget.php:92
+msgid "Share on Reddit"
+msgstr "Dee op Reddit"
+
+#: functions.php:170
+msgid "Follow this posts comments"
+msgstr "Volg dit berichten commentaar"
+
+#: functions.php:176
+msgid "Buzz up"
+msgstr "Buzz up"
+
+#: functions.php:179
+msgid "Sphinn this"
+msgstr "Sphinn dit"
+
+#: functions.php:180
+msgid "Sphinn this BLOG : TITLE "
+msgstr "Sphinn deze BLOG: TITLE"
+
+#: functions.php:183
+#: functions.php:187
+#: functions.php:190
+msgid "Share on nuJIJ"
+msgstr "Deel op NuJIJ"
+
+#: functions.php:184
+#: functions.php:188
+#: functions.php:191
+#: share-widget.php:102
+msgid "Share this BLOG : TITLE on nuJIJ"
+msgstr "Deel deze BLOG: TITLE op NuJIJ"
+
+#: functions.php:193
+msgid "bookmark"
+msgstr "Bewaar"
+
+#: functions.php:194
+msgid "bookmark this BLOG : TITLE "
+msgstr "Bewaar deze BLOG: TITLE"
+
+#: functions.php:196
+#: share-widget.php:84
+msgid "Buzz it"
+msgstr "Buzz it"
+
+#: functions.php:197
+#: share-widget.php:84
+msgid "Buzz it this BLOG : TITLE "
+msgstr "Buzz it deze BLOG: TITLE"
+
+#: functions.php:198
+msgid "Found this and thought of you..."
+msgstr "Vond dit en dacht aan jou..."
+
+#: functions.php:229
+msgid "Share this "
+msgstr "Deel dit"
+
+#: functions.php:402
+msgid "Watch my video"
+msgstr "Bekijk mijn video"
+
+#: functions.php:404
+msgid "Follow me on Foursquare"
+msgstr "Volg mij op Foursquare"
+
+#: functions.php:408
+msgid "Tumblr."
+msgstr "Tumblr."
+
+#: functions.php:412
+msgid "Become my MySpace follower"
+msgstr "Wordt mijn MySpace volger"
+
+#: functions.php:413
+msgid "Read Reviews"
+msgstr "Lees reviews"
+
+#: functions.php:414
+msgid "Join Newsletter"
+msgstr "Word lid van de nieuwsbrief"
+
+#: functions.php:417
+msgid "Join me on a mission"
+msgstr "Vergezel mij op een missie"
+
+#: share-and-follow.php:426
+msgid "blog"
+msgstr "Blog"
+
+#: share-and-follow.php:427
+msgid "post"
+msgstr "Plaats een bericht"
+
+#: share-and-follow.php:769
+#: share-and-follow.php:770
+msgid "Follow this"
+msgstr "Volg dit"
+
+#: share-and-follow.php:816
+#: share-and-follow.php:817
+msgid "Share this"
+msgstr "Deel dit"
+
+#: share-and-follow.php:818
+msgid "Here is a link to a site I really like"
+msgstr "Hier is een link naar een site die ik echt leuk vind"
+
+#: share-widget.php:81
+msgid "Share on Tumblr"
+msgstr "Deel op Tumblr"
+
+#: share-widget.php:82
+msgid "Share on Vkontakte"
+msgstr "Deel op Vkontakte"
+
+#: share-widget.php:83
+msgid "Recomend on Facebook"
+msgstr "Aanbevelen op Facebook"
+
+#: share-widget.php:87
+msgid "Share this BLOG : TITLE on linkedin"
+msgstr "Deel deze BLOG: TITLE op LInkedin"
+
+#: share-widget.php:98
+msgid "Share on Xing"
+msgstr "Deel op Xing"
+
+#: share-widget.php:98
+msgid "Share this BLOG : TITLE on Xing"
+msgstr "Deel deze BLOG: TITLE op Xing"
+
+#: share-widget.php:100
+msgid "bookmark for later"
+msgstr "Bewaar voor later"
+
+#: share-widget.php:100
+msgid "bookmark this BLOG : TITLE for reading later"
+msgstr "Bewaar deze Blog: TITLE om later te lezen"
+
+#: share-widget.php:101
+msgid "sphinn for later"
+msgstr "Sphinn voor later"
+
+#: share-widget.php:101
+msgid "Share this BLOG : TITLE on Sphinn"
+msgstr "Deel deze BLOG : TITLE op Sphinn"
+
+#: share-widget.php:102
+msgid "nujij for later"
+msgstr "NuJIJ voor later"
+
+#: share-widget.php:137
+msgid "Direction:"
+msgstr "Richting:"
+
+#: share-widget.php:163
+msgid "the words <strong>BLOG</strong> &amp; <strong>TITLE</strong> are keywords that will be replaced.  BLOG is replaced with the word \"post\" or \"blog\" and the word TITLE will be replaced with full title of the post"
+msgstr "De woorden <strong>BLOG</strong> &amp; <strong>TITEL</strong> zijn sleutelwoorden die vervangen zullen worden.  BLOG isvervangen door het woord \"post\" or \"blog\" en het woord TITEL zal worden vervagen met de volledige titel van het bericht"
+
+#. Plugin Name of the plugin/theme
+msgid "Share and Follow"
+msgstr "Share and Follow"
+
+#. Plugin URI of the plugin/theme
+msgid "http://share-and-follow.com/wordpress-plugin/"
+msgstr "http://share-and-follow.com/wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "A simple plugin to manage sharing and following. **We're adding lots of functionality at the moment, so why not <a href=\"http://share-and-follow.com/wordpress-plugin/what-do-you-want/\" >tell us what you want?</a>, or join the <a href=\"http://twitter.com/shareandfollow/\" >twitter feed</a> or <a href=\"http://www.facebook.com/pages/Share-and-Follow/115725341775417\">facebook page</a> to findout what's going on.  Great things are happening, be part of them....**        <a href=\"options-general.php?page=share-and-follow.php\">Options &amp; configuration</a> | <a href=\"http://share-and-follow.com/wordpress-plugin/\" >Documentation</a> | <a href=\"http://share-and-follow.com/wordpress-plugin/support/\" >Support</a>"
+msgstr "Een simpele plugin om delen en volgen te beheren. ** We voegen veel functionaliteit toe op dit moment, dus waarom vertel je ons niet <a href=\"http://share-and-follow.com/wordpress-plugin/what-do-you-want/\"> wat je wilt? </ a>, of neem deel aan de <a href=\"http://twitter.com/shareandfollow/\"> twitter feed </ a> of <a href = \ \"http://www .facebook.com/pages/Share-and-Follow/115725341775417 \ \"> Facebook-pagina </ a> om te zien wat er gaande is. Grote dingen staan te gebeuren, wees een deel hiervan ....** <a href=\"options-general.php?page=share-and-follow.php\"> Opties & configuratie </ a> | <a href = \ \"http://share-and-follow.com/wordpress-plugin/ \"> Documentatie </ a> | <a href = \ \"http://share-and-follow.com/wordpress-plugin / support / \ \"> Ondersteuning </ a>"
+
+#. Author of the plugin/theme
+msgid "Andy Killen"
+msgstr "Andy Killen"
+
+#. Author URI of the plugin/theme
+msgid "http://phat-reaction.com"
+msgstr "http://phat-reaction.com"
+

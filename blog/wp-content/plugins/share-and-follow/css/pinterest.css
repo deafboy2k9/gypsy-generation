@@ -1,0 +1,4 @@
+.make-relative{position:relative}
+.make-relative > img,.make-relative > a img ,.make-relative > a {float:none !important ;z-index: 100}
+a.pin-it-image-button {position: absolute;bottom:15px;right:15px;z-index:200;display:block; height:24px;width:24px; background:transparent url(../default/24/pinterest.png) no-repeat}
+a.pin-it-image-button span {display:none}

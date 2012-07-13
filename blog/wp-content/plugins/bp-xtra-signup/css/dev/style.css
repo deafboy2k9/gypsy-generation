@@ -1,0 +1,61 @@
+#username_checker,#email_checker{
+	position:relative;	
+}
+#username_checker span.loading,#email_checker span.loading{
+	background: url( images/ajax-loader.gif ) no-repeat 92% 50%;
+	width:14px;
+	height:14px;
+	position:absolute;
+	right:10px;
+	top:7px;
+}
+#username_checker span.available,#username_checker span.error,#email_checker span.available,#email_checker span.error,#compare-info{
+	display:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 10px 0;
+	width: 86%;
+	padding: 5px 15px;
+	border-style:solid;
+	border-width:1px;
+}
+#username_checker span.available,#email_checker span.available{
+	display:block;
+	color:#555;
+	background: #c3ff88;
+	border-color:#8dff1c;
+}
+#username_checker span.error,#email_checker span.error,#compare-info{
+	display:block;
+	color: #555;
+	background: #ffa0a0;
+	border-color:#f04040;
+}
+#pass-strength-result {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #eee;
+	border-width:1px;
+	border-style:solid;
+	padding:5px 10px;
+	width:88%;
+	border-color: #ddd !important;
+}
+#pass-strength-result.bad {
+	background-color: #ffb78c;
+	border-color: #ff853c !important;
+}
+#pass-strength-result.good {
+	background-color: #ffec8b;
+	border-color: #fc0 !important;
+}
+#pass-strength-result.short {
+	background-color: #ffa0a0;
+	border-color: #f04040 !important;
+}
+#pass-strength-result.strong {
+	background-color: #c3ff88;
+	border-color: #8dff1c !important;
+}

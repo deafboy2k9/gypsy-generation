@@ -1,0 +1,95 @@
+/* BuddyBar Widget Styling */
+
+
+/**********************
+		FONTS
+***********************/
+@font-face
+{
+	font-family: motiva_sans;
+	src:url('fonts/Motiva-Sans.ttf'), 
+     	url('fonts/Motiva-Sans.eot'); /* IE9+ */
+}
+
+@font-face
+{
+	font-family: motiva_sans_light;
+	src:url('fonts/Motiva-Sans-Light.ttf'), 
+     	url('fonts/Motiva-Sans-Light.eot'); /* IE9+ */
+}
+
+@font-face
+{
+	font-family: motiva_sans_bold;
+	src:url('fonts/Motiva-Sans-Bold.ttf'), 
+     	url('fonts/Motiva-Sans-Bold.eot'); /* IE9+ */
+}
+
+@font-face
+{
+	font-family: motiva_sans_italic;
+	src:url('fonts/Motiva-Sans-Regular-Italic.ttf'), 
+     	url('fonts/Motiva-Sans-Regular-Italic.eot'); /* IE9+ */
+}
+
+@font-face
+{
+	font-family: motiva_sans_bold_italic;
+	src: url('fonts/Motiva-Sans-Bold-Italic.ttf'),
+     	url('fonts/Motiva-Sans-Bold-Italic.eot'); /* IE9+ */
+}
+
+@font-face
+{
+	font-family: motiva_sans_light_italic;
+	src:url('fonts/Motiva-Sans-Light-Italic.ttf'), 
+     	url('fonts/Motiva-Sans-Light-Italic.eot'); /* IE9+ */
+}
+
+
+
+
+#bbw-avatar {width:175px; clear:both; left:0; padding:right:10px;}
+
+#bbw-profile {right:20px; text-align:left;}
+
+
+.bbw-user-link, .bbw-module-title {
+	font-weight: bold;
+}
+
+#bbw-activity, #bbw-friends, #bbw-groups, #bbw-messages, /*.bbw-user-link*/ {
+	margin-bottom: 10px;
+}
+
+/*.bbw-user-link,*/ #bbw-activity, #bbw-friends, #bbw-groups, #bbw-messages/*, #bbw-profile*/ {
+	float: left;
+	margin: 0px;
+	list-style: none;
+}
+
+#bbw-activity, #bbw-friends, #bbw-groups, #bbw-messages {
+	width: 135px;
+}
+
+/*#bbw-avatar, #bbw-profile,*/ #bbw-activity, #bbw-friends, #bbw-groups, #bbw-messages {
+	height: 100px;
+}
+
+#bbw-avatar img {
+	height: 175px; 
+	width: 175px;
+}
+
+.bbw-user-link {
+	font-size: 12px; 
+	text-transform:uppercase;
+	letter-spacing: 3px;
+	/*width: 280px;*/
+right:60px; text-align:left;
+
+}
+
+.bbw-module-title {
+	font-size: medium;
+}
