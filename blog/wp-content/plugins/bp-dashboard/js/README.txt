@@ -1,0 +1,1 @@
+add your js files in this directory and add an entry for your file in the function bp_dashboard_add_js() in /includes/bp-dashboard-cssjs.php
